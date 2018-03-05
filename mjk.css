@@ -1,0 +1,146 @@
+
+body {
+    font-weight: normal;
+    font-size 16px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+figcaption , caption{
+    font-style: italic;
+    font-family: serif;
+    font-size: inherit;
+    color: inherit;
+    text-align: center;
+}
+
+section h2,
+section h3 {
+    text-align: left;
+}
+
+section p {
+    text-align: left;
+}
+
+section.intro-section p {
+    text-align: center;
+}
+
+section ul {
+    text-align: left;
+}
+
+.date {
+    font-size:11px;
+    color: #aaa;
+    text-align: left;
+    display: block;
+}
+
+.sc {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 120%;
+}
+
+.navbar-nav {
+    font-size: 14px;
+}
+
+.btn.page-scroll {
+    max-width: 80%;
+    white-space: inherit;
+}
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+section {
+    min-height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom:100px;
+}
+
+
+section.bgodd {
+    background:#eee;
+}
+section.bgeven {
+    background: #fff;
+}
+
+table {
+    border: 1px black solid;
+}
+
+th, td {
+    padding: 0.5em 1em;
+}
+th {
+    text-align:center;
+}
+
+tr:nth-child(odd){ 
+    background-color:#eee;
+}
+
+tr:nth-child(even) {
+    background-color:#fff;
+}
+td:nth-child(1){
+    text-align: right;
+}
+td:nth-child(2){
+    text-align: left;
+}
+
+
+section.intro-section {
+    min-height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: url('http://trapum.org/images/2016_meerkat_01.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+@media(max-width:768px) {
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    section.intro-section{
+        padding-top: 50px;
+    }
+}
+
+section.goals-section img {
+    width: 100%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+section.policy-section {
+    min-height:100%;
+}
+
+
+section.goals-section { 
+    min-height: 100%;
+}
+
+
+
+section.team-section {
+    min-height: 100%;
+}
+
