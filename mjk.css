@@ -106,7 +106,8 @@ section.intro-section {
     min-height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: url('http://trapum.org/images/2016_meerkat_01.jpg') no-repeat center center fixed;
+    background: url('http://trapum.org/images/2018-MeerKAT-6.jpg') no-repeat center center fixed;
+/*    background: url("/Users/bstappers/Documents/TRAPUM/trapum.org/images/2018-MeerKAT-6.jpg") no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
