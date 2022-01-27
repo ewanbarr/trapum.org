@@ -14,8 +14,8 @@ from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output, State
 
 # --- Constants ---
-
-IMAGE_ROUTE = '/images/'
+BASE_URL = "/discoveries/"
+IMAGE_ROUTE = os.path.join(BASE_URL, "/images/")
 IMAGE_DIR = os.path.abspath("./images/")
 YAML_DIR = os.path.abspath("./pulsars/")
 TRAPUM_LOGO_LARGE = os.path.join(
@@ -113,7 +113,7 @@ else:
 # --- App instantiation ---
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-app.config.update({"requests_pathname_prefix": "/discoveries/"})
+app.config.update({"requests_pathname_prefix": BASE_URL})
 
 # --- Helper functions
 
