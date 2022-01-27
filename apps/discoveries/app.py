@@ -15,7 +15,7 @@ from dash.dependencies import Input, Output, State
 
 # --- Constants ---
 
-IMAGE_ROUTE = 'images/'
+IMAGE_ROUTE = '/images/'
 IMAGE_DIR = os.path.abspath("./images/")
 YAML_DIR = os.path.abspath("./pulsars/")
 TRAPUM_LOGO_LARGE = os.path.join(
