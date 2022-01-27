@@ -115,6 +115,7 @@ else:
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.config.update({"requests_pathname_prefix": BASE_URL})
+server = app.server
 
 # --- Helper functions
 
@@ -521,4 +522,4 @@ app.layout = dbc.Container(children=[
 """
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
