@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: Small Magellanic Cloud
+  type: Galaxy
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-03-15'
+  discovery_plot: discoveries/SMC_H_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-01-14'
+  pipeline: Peasoup
+  project: ExGal
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 292.2
+  name: J0048-7317
+  period: 79.31
+  ra: null

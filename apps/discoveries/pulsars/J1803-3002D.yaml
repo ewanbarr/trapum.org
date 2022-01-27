@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: NGC 6522
+  type: Globular Cluster
+discovery_parameters:
+  backend: PTUSE
+  discovery_band: null
+  discovery_date: '2019-09-06'
+  discovery_plot: discoveries/NGC6522D_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2019-08-09'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 192.7
+  name: J1803-3002D
+  period: 5.53
+  ra: null

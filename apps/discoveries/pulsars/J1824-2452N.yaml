@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: M28
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-01-28'
+  discovery_plot: discoveries/M28N_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2020-12-11'
+  pipeline: Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 119.3
+  name: J1824-2452N
+  period: 3.35
+  ra: null

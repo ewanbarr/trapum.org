@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 3FGL J1259.3-8151  4FGL J1259.0-8148
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-09-23'
+  discovery_plot: discoveries/J1259-8148_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-09-14'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 44.3
+  name: J1259-8148
+  period: 2.09
+  ra: null

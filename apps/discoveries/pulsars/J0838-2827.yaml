@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 3FGL J0838.8-2829  4FGL J0838.7-2827
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-08-16'
+  discovery_plot: discoveries/J0838-2827_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-06-18'
+  pipeline: PULSAR_MINER / Presto
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 80.7
+  name: J0838-2827
+  period: 3.62
+  ra: null

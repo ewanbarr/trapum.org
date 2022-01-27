@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: Terzan 5
+  type: Globular Cluster
+discovery_parameters:
+  backend: PTUSE
+  discovery_band: null
+  discovery_date: '2019-07-31'
+  discovery_plot: discoveries/Ter5AN_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2019-05-27'
+  pipeline: Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 237.7
+  name: J1748-2446an
+  period: 4.8
+  ra: null

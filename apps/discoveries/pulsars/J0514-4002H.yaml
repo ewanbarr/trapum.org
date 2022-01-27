@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: NGC 1851
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-02-16'
+  discovery_plot: discoveries/NGC1851H_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-01-15'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 52.3
+  name: J0514-4002H
+  period: 5.5
+  ra: null

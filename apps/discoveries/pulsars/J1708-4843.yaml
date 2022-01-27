@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-08-20'
+  discovery_plot: discoveries/J1708-4843_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-07-30'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 29.0
+  name: J1708-4843
+  period: 16.7
+  ra: null

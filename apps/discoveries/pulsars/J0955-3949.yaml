@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 3FGL J0954.8-3948  4FGL J0955.3-3949
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-06-03'
+  discovery_plot: discoveries/J0955-3949_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-03-08'
+  pipeline: PULSAR_MINER / Presto
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 130.7
+  name: J0955-3949
+  period: 2.02
+  ra: null

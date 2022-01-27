@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1757.7-6032
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-01-22'
+  discovery_plot: discoveries/J1757.7-6032_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2020-11-29'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 62.9
+  name: J1757-6032
+  period: 2.91
+  ra: null

@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 3FGL J1709.5-0335  4FGL J1709.4-0328
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-01-19'
+  discovery_plot: discoveries/PSR_J1709-0333_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2020-12-13'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 37.8
+  name: J1709-0333
+  period: 3.52
+  ra: null

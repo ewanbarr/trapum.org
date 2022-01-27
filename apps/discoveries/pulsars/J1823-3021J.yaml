@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: NGC 6624
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-02-08'
+  discovery_plot: discoveries/NGC6624J_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2020-08-11'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 86.8
+  name: J1823-3021J
+  period: 20.89
+  ra: null

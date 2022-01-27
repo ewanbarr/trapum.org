@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-09-13'
+  discovery_plot: discoveries/J1633-4859_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-08-27'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 1020.0
+  name: J1633-4859
+  period: 2515.0
+  ra: null

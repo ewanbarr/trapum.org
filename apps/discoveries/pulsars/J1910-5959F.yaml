@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: NGC 6752
+  type: Globular Cluster
+discovery_parameters:
+  backend: PTUSE
+  discovery_band: null
+  discovery_date: '2020-02-02'
+  discovery_plot: discoveries/NGC6752F_discovery_plot_TBR.png
+  discovery_snr: null
+  observation_date: '2020-01-02'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 33.2
+  name: J1910-5959F
+  period: 8.48
+  ra: null

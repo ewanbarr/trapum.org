@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1823.8-3544
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2020-10-01'
+  discovery_plot: discoveries/J1823.8-3544_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2020-07-04'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 81.66
+  name: J1823-3543
+  period: 2.37
+  ra: null

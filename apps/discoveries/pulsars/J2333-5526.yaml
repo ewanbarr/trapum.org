@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J2333.1-5527
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-06-17'
+  discovery_plot: discoveries/J2333-5526_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-04-10'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 19.9
+  name: J2333-5526
+  period: 2.1
+  ra: null

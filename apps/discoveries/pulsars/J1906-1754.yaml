@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1906.4-1757
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2020-10-22'
+  discovery_plot: discoveries/J1906.4-1757_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2020-10-01'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 98.09
+  name: J1906-1754
+  period: 2.88
+  ra: null

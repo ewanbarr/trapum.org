@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: NGC 6342
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-01-29'
+  discovery_plot: discoveries/NGC6342B_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-01-25'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 71.4
+  name: J1721-1936B
+  period: 2.57
+  ra: null

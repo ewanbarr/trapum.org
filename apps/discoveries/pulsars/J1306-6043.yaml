@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1306.3-6043
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-05-19'
+  discovery_plot: discoveries/J1306-6043_MSGPS_L_2063_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-04-11'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 67.0
+  name: J1306-6043
+  period: 5.67
+  ra: null

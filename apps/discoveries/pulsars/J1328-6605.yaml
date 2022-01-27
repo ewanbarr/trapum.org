@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2022-01-17'
+  discovery_plot: discoveries/J1328-6605_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-12-28'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 329.0
+  name: J1328-6605
+  period: 734.0
+  ra: null

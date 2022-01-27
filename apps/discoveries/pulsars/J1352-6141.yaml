@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-12-14'
+  discovery_plot: discoveries/J1352-6141_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-11-27'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 76.3
+  name: J1352-6141
+  period: 4.74
+  ra: null

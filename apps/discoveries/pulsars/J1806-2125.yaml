@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: HTRU-S special
+  type: null
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-07-01'
+  discovery_plot: discoveries/J1806-2125_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-05-16'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 555.0
+  name: J1806-2125
+  period: 172.0
+  ra: null

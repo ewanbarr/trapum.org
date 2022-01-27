@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: NGC 6440
+  type: Globular Cluster
+discovery_parameters:
+  backend: PTUSE
+  discovery_band: null
+  discovery_date: '2020-03-09'
+  discovery_plot: discoveries/NGC6440G_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2019-08-25'
+  pipeline: Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 219.7
+  name: J1748-2021G
+  period: 5.21
+  ra: null

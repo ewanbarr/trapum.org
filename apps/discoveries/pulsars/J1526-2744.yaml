@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1526.6-2743
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2020-10-06'
+  discovery_plot: discoveries/J1526.6-4723_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2020-06-20'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 30.97
+  name: J1526-2744
+  period: 2.49
+  ra: null

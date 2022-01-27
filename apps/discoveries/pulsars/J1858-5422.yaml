@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1858.3-5424
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2020-10-01'
+  discovery_plot: discoveries/J1858.3-5424_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2020-07-04'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 30.81
+  name: J1858-5422
+  period: 2.36
+  ra: null

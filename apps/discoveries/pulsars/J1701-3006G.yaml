@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: M62
+  type: Globular Cluster
+discovery_parameters:
+  backend: PTUSE
+  discovery_band: null
+  discovery_date: '2019-07-31'
+  discovery_plot: discoveries/M62G_discovery_plot_TBR.png
+  discovery_snr: null
+  observation_date: '2019-04-29'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 113.7
+  name: J1701-3006G
+  period: 4.61
+  ra: null

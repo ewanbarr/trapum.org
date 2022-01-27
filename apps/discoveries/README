@@ -1,0 +1,39 @@
+pulsar_parameters:
+  name: J0000+0000   # Jname to be displayed on the webpage
+  aliases: []        # List of aliases
+  period: 0.001      # period in milliseconds
+  dm: 23.234         # dispersion measure in pc cm^-3
+  ra: 00:00:00       # J2000 right ascension  
+  dec: 00:00:00      # J2000 declination  
+  binary: unknown    # unknown, yes, no
+  binary_parameters:
+    pb: null         # binary period in days
+    ecc: null        # eccentricity
+    asini: null      # projected semi-major axis in lt-s
+discovery_parameters:
+  discovery_date: 2021-10-13
+  observation_date: 2021-09-12
+  project: GC
+  pipeline: Peasoup
+  discovery_plot: null
+  discovery_band: UHF     # UHF, S-band, L-band
+  discovery_snr: null
+associations:             # Any relevant associations (clusters, galaxies, Fermi, Gaia, etc.)
+  - name: 1FGL blah
+    type: Fermi LAT (Gamma-ray)
+  - name: Terzan 5
+    type: Globular cluster
+additional_content:       # freeform content
+  - title: Ephemeris
+    images: []
+    body: >
+      PSRJ J0000+0000
+      P0  0.0123123
+      DM  22.23424
+  - title: Notes
+    images: []
+    body: >
+      The first double neutron star system discovered in the MGPS survey. etc. etc.
+  
+
+  

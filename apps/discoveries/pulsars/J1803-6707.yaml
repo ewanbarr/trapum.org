@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 3FGL J1803.3-6706  4FGL J1803.1-6708
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2020-10-06'
+  discovery_plot: discoveries/PSR_J1803-6707_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2020-06-20'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 38.4
+  name: J1803-6707
+  period: 2.13
+  ra: null

@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-08-24'
+  discovery_plot: discoveries/J1148-6546_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-08-03'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 121.5
+  name: J1148-6546
+  period: 1497.0
+  ra: null
