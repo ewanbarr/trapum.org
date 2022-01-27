@@ -113,7 +113,7 @@ else:
 # --- App instantiation ---
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
+app.config.update({"requests_pathname_prefix": "/discoveries/"})
 
 # --- Helper functions
 
