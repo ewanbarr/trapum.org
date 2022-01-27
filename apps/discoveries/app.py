@@ -12,7 +12,7 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output, State
-# 51, 160, 212
+
 # --- Constants ---
 
 IMAGE_ROUTE = 'images/'
@@ -481,11 +481,11 @@ LAYOUTS = {
     "tab-outreach": [],
 }
 
-
+"""
 @app.callback(Output("content", "children"), [Input("tabs", "active_tab")])
 def tab_content(active_tab):
     return LAYOUTS.get(active_tab, dash.no_update)
-
+"""
 
 @app.callback(Output("discoveries-content", "children"), [Input("discoveries-tabs", "active_tab")])
 def tab_content(active_tab):
@@ -497,7 +497,8 @@ def tab_content(active_tab):
 
 app.layout = dbc.Container(children=[
     header,
-    dbc.Container([tabs]),
+    #dbc.Container([tabs]),
+    dbc.Container([discoveries_tabs]),
     footer,
     html.Br()
     ], fluid=True)
