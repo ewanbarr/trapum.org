@@ -60,7 +60,7 @@ plotly==5.5.0
 prompt-toolkit==3.0.5
 psrqpy==1.0.7
 ptyprocess==0.6.0
-Pygments==2.6.1
+Pygments==2.7.4
 PyJWT==1.7.1
 PyMySQL==0.9.3
 pyparsing==2.4.7
