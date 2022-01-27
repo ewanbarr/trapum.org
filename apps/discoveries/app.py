@@ -16,11 +16,11 @@ from dash.dependencies import Input, Output, State
 # --- Constants ---
 
 IMAGE_ROUTE = 'images/'
-#IMAGE_DIR = os.path.abspath("./images/")
+IMAGE_DIR = os.path.abspath("./images/")
 YAML_DIR = os.path.abspath("./pulsars/")
 TRAPUM_LOGO_LARGE = os.path.join(
     IMAGE_ROUTE,
-    "TRAPUM_logo_colour_CMYK_reversed_A_lock-up_04_cropped.png")
+    "misc/TRAPUM_logo_colour_CMYK_reversed_A_lock-up_04_cropped.png")
 
 # --- Style ---
 
@@ -343,14 +343,12 @@ def display_graph_click_data(clickData, figure):
         return True, make_pulsar_display_modal(pulsar_name)
 
 
-""" Only required for local run
 @app.server.route('{}/<subdir>/<image_path>.png'.format(IMAGE_ROUTE))
 def serve_image(subdir, image_path):
     print("request to serve", image_path, "from", subdir)
     image_name = "{}.png".format(image_path)
     return flask.send_from_directory(
         os.path.join(IMAGE_DIR, subdir), image_name)
-"""
 
 
 records = load_data(YAML_DIR)
