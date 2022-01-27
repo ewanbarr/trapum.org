@@ -8,6 +8,7 @@ import yaml
 import base64
 import pandas as pd
 import flask
+from flask import jsonify
 import dash_bootstrap_components as dbc
 import plotly.express as px
 from dash import dcc, html, dash_table
@@ -265,6 +266,12 @@ def update_plot(xaxis, yaxis, zaxis, logscales):
             'paper_bgcolor': 'rgba(0, 0, 0, 0)',
             })
     return [dcc.Graph(id='pulsar-scatter-plot', figure=fig)]
+
+# --- API --
+
+@app.server.route('/api/')
+def route1():
+    return jsonify({'message':'this is the first route'})
 
 
 # --- Callbacks ---
