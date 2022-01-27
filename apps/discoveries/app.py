@@ -271,7 +271,7 @@ def update_plot(xaxis, yaxis, zaxis, logscales):
 
 @app.server.route('/api/')
 def route1():
-    return jsonify({'message':'this is the first route'})
+    return jsonify(records)
 
 
 # --- Callbacks ---
