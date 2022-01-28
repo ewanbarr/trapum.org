@@ -1,3 +1,10 @@
+This application is intended to display pulsar discoveries from TRAPUM/MGPS
+
+To upload a new discovery a YAML file must be created for the discovery and this must be uploaded into the pulsars/ directory.
+The format is outlined below:
+
+--- J0000+0000.yaml ---
+
 pulsar_parameters:
   name: J0000+0000   # Jname to be displayed on the webpage
   aliases: []        # List of aliases
@@ -34,6 +41,24 @@ additional_content:       # freeform content
     images: []
     body: >
       The first double neutron star system discovered in the MGPS survey. etc. etc.
+publications:
+  - title: Its-a me pulsar, Joe Blogs et al. (2021)
+    link: arXiv.org/2r232r3r/23r23r
   
 
-  
+---------------------
+
+# Rules/notes for upload:
+- Only published pulsars should include RA/DEC and binary parameters
+- Where parameters are unknown they can be replaced by `null`
+- Dates are specified YYYY-MM-DD
+- All associated images must be uploaded into the TOP-LEVEL images directory for the webpage (e.g. www.trapum.org/images/...)
+- Discovery plots should go into the /images/discoveries/ subdirectory
+- Thumbnail images are no longer required
+
+There is support for the inclusion of additional content for each pulsar.
+This takes the form of a title, set of image paths and some free form markdown
+text for the body. These will be displayed in sequence on the pulsar detail modal
+(which is displayed when clicking scatter plot points or table cells).
+
+
