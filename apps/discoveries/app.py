@@ -16,6 +16,7 @@ from dash.dependencies import Input, Output, State
 
 # --- Constants ---
 BASE_URL = "/discoveries/"
+#BASE_URL = "/"
 IMAGE_ROUTE = "/images/" 
 IMAGE_DIR = os.path.abspath("./images/")
 YAML_DIR = os.path.abspath("./pulsars/")
@@ -152,7 +153,7 @@ def format_data(records):
             "observation_date": record["discovery_parameters"]["observation_date"],
             "discovery_band": record["discovery_parameters"]["discovery_band"],
             "discovery_snr": record["discovery_parameters"]["discovery_snr"],
-            "project": record["discovery_parameters"]["project"]
+            "project": record["discovery_parameters"]["project"].upper()
         }
         data.append(formatted_record)
     return columns, pd.DataFrame(data)
@@ -377,6 +378,46 @@ table = dash_table.DataTable(
         style_as_list_view=True,
         **DASH_TABLE_STYLE)
 
+
+def simple_dict_display(title, data, font_size):
+    key_style = {
+        "text-align": "right",
+        "color": "white",
+        "font-size": font_size,
+        "text-shadow": "0 0 30px #FFFFFF",
+        "font-weight": "bold"
+    }
+    value_style = {
+        "text-align": "left",
+        "color": "white",
+        "font-size": font_size,
+        "text-shadow": "0 0 30px #FFFFFF"
+    }
+    title_style = {
+        "text-align": "center"
+    }
+
+    cols = []
+    for key, value in data.items():
+        cols.append(dbc.Col([
+            html.Span(f"{key}: ", style=key_style),
+            html.Span(f"{value}", style=value_style)
+            ]))
+    return dbc.Row(cols, justify="centre", style={
+            "margin-left": "auto",
+            "margin-right": "auto"})
+
+
+def generate_discovery_stats(data):
+    by_project = data.groupby("project").count()["name"].to_dict()
+    by_project["TOTAL"] = len(data)
+
+    stats_panel = dbc.Container([
+        simple_dict_display("Total", {"TOTAL DISCOVERIES": len(data)}, font_size=22),
+        simple_dict_display("Projects", by_project, font_size=18)
+        ], style={"width": "60%"})
+    return stats_panel
+
 plot_controls = [
     make_plot_control("x-axis-selector", "x-axis", dropdown_cols, "period"),
     make_plot_control("y-axis-selector", "y-axis", dropdown_cols, "dm"),
@@ -503,7 +544,7 @@ def tab_content(active_tab):
 
 app.layout = dbc.Container(children=[
     header,
-    #dbc.Container([tabs]),
+    generate_discovery_stats(df),
     dbc.Container([discoveries_tabs]),
     footer,
     html.Br()
