@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 3FGL J2029.5-4232  4FGL J2029.5-4237
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-10-22'
+  discovery_plot: discoveries/J2029-4239_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-10-09'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: unknown
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 10.2
+  name: J2029-4239
+  period: 5.31
+  ra: null
