@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1356.6+0234
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2021-12-28'
+  discovery_plot: discoveries/J1356+0230_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2021-12-15'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 17.8
+  name: J1356+0230
+  period: 2.83
+  ra: null
