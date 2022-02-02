@@ -4,7 +4,7 @@ discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: null
   discovery_date: '2022-01-04'
-  discovery_plot: discoveries/J1547-5058_discovery_plot.png
+  discovery_plot: discoveries/J1547-5056_discovery_plot.png
   discovery_snr: null
   observation_date: '2021-12-19'
   pipeline: Peasoup
@@ -18,6 +18,6 @@ pulsar_parameters:
     pb: null
   dec: null
   dm: 107.0
-  name: J1547-5058
+  name: J1547-5056
   period: 453.0
   ra: null
