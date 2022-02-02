@@ -410,8 +410,6 @@ def simple_dict_display(title, data, font_size):
 
 def generate_discovery_stats(data):
     by_project = data.groupby("project").count()["name"].to_dict()
-    by_project["TOTAL"] = len(data)
-
     stats_panel = dbc.Container([
         simple_dict_display("Total", {"TOTAL DISCOVERIES": len(data)}, font_size=22),
         simple_dict_display("Projects", by_project, font_size=18)

@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: null
+  discovery_date: '2022-01-24'
+  discovery_plot: discoveries/J1716-3811_discovery_plot.png
+  discovery_snr: null
+  observation_date: '2022-01-08'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 829
+  name: J1716-3811
+  period: 1219
+  ra: null
