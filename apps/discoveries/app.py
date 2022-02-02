@@ -24,6 +24,7 @@ YAML_DIR = os.path.abspath("./pulsars/")
 TRAPUM_LOGO_LARGE = os.path.join(
     IMAGE_ROUTE,
     "TRAPUM_logo_colour_CMYK_reversed_A_lock-up_04_cropped.png")
+APP_TITLE = "Discoveries"
 
 # --- Style ---
 
@@ -116,6 +117,7 @@ else:
 # --- App instantiation ---
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app.title = APP_TITLE
 app.config.update({"requests_pathname_prefix": BASE_URL})
 server = app.server
 
