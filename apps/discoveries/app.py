@@ -5,6 +5,7 @@ import dash
 import os
 import glob
 import yaml
+import datetime
 import base64
 import pandas as pd
 import flask
@@ -410,11 +411,14 @@ def simple_dict_display(title, data, font_size):
 
 def generate_discovery_stats(data):
     by_project = data.groupby("project").count()["name"].to_dict()
+    date = datetime.datetime.strftime(datetime.datetime.now(), "%Y-%m-%d %H:%M")
     stats_panel = dbc.Container([
         simple_dict_display("Total", {"TOTAL DISCOVERIES": len(data)}, font_size=22),
+        simple_dict_display("Date", {"LAST UPDATED": date}, font_size=12),
         simple_dict_display("Projects", by_project, font_size=18)
         ], style={"width": "60%"})
     return stats_panel
+
 
 plot_controls = [
     make_plot_control("x-axis-selector", "x-axis", dropdown_cols, "period"),
