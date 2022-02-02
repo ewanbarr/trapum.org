@@ -414,8 +414,8 @@ def generate_discovery_stats(data):
     date = datetime.datetime.strftime(datetime.datetime.now(), "%Y-%m-%d %H:%M")
     stats_panel = dbc.Container([
         simple_dict_display("Total", {"TOTAL DISCOVERIES": len(data)}, font_size=22),
-        simple_dict_display("Date", {"LAST UPDATED": date}, font_size=12),
-        simple_dict_display("Projects", by_project, font_size=18)
+        simple_dict_display("Projects", by_project, font_size=18),
+        simple_dict_display("Date", {"LAST UPDATED": date}, font_size=12)
         ], style={"width": "60%"})
     return stats_panel
 
