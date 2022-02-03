@@ -7,7 +7,7 @@ discovery_parameters:
   discovery_band: null
   discovery_date: '2021-02-19'
   discovery_plot: discoveries/NGC6752I_discovery_plot.png
-  discovery_snr: null
+  discovery_snr: 7.6
   observation_date: '2021-01-22'
   pipeline: PULSAR_MINER / Presto
   project: GC

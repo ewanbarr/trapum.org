@@ -1,11 +1,11 @@
-additional_content: [] 
+additional_content: []
 associations: []
 discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: null
   discovery_date: '2021-12-09'
   discovery_plot: discoveries/J1500-6054_discovery_plot.png
-  discovery_snr: null
+  discovery_snr: 10.6
   observation_date: '2021-11-19'
   pipeline: Peasoup
   project: MGPS-L

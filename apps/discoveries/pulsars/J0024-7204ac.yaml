@@ -7,7 +7,7 @@ discovery_parameters:
   discovery_band: null
   discovery_date: '2019-10-22'
   discovery_plot: discoveries/47TucAC_discovery_plot.png
-  discovery_snr: null
+  discovery_snr: 38.0
   observation_date: '2019-10-09'
   pipeline: PULSAR_MINER / Presto
   project: GC

@@ -5,7 +5,7 @@ discovery_parameters:
   discovery_band: null
   discovery_date: '2022-01-24'
   discovery_plot: discoveries/J1716-3811_discovery_plot.png
-  discovery_snr: null
+  discovery_snr: 11.6
   observation_date: '2022-01-08'
   pipeline: Peasoup
   project: MGPS-L

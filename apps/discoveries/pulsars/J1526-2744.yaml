@@ -7,7 +7,7 @@ discovery_parameters:
   discovery_band: null
   discovery_date: '2020-10-06'
   discovery_plot: discoveries/J1526.6-4723_discovery_plot.png
-  discovery_snr: null
+  discovery_snr: 9.2
   observation_date: '2020-06-20'
   pipeline: Peasoup
   project: FERMI

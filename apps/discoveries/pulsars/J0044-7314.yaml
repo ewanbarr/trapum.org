@@ -7,7 +7,7 @@ discovery_parameters:
   discovery_band: null
   discovery_date: '2021-05-24'
   discovery_plot: discoveries/SMC_J_discovery_plot.png
-  discovery_snr: null
+  discovery_snr: 23.5
   observation_date: '2021-04-24'
   pipeline: Peasoup
   project: ExGal

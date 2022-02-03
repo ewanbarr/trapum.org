@@ -7,7 +7,7 @@ discovery_parameters:
   discovery_band: null
   discovery_date: '2020-03-09'
   discovery_plot: discoveries/NGC6440G_discovery_plot.png
-  discovery_snr: null
+  discovery_snr: 9.0
   observation_date: '2019-08-25'
   pipeline: Presto
   project: GC

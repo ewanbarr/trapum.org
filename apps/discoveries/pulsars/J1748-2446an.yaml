@@ -7,7 +7,7 @@ discovery_parameters:
   discovery_band: null
   discovery_date: '2019-07-31'
   discovery_plot: discoveries/Ter5AN_discovery_plot.png
-  discovery_snr: null
+  discovery_snr: 8.0
   observation_date: '2019-05-27'
   pipeline: Presto
   project: GC
