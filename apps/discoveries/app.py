@@ -15,11 +15,15 @@ import plotly.express as px
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output, State
 
+PRODUCTION = True
+
 # --- Constants ---
-BASE_URL = "/discoveries/"
-#BASE_URL = "/"
+if PRODUCTION:
+    BASE_URL = "/discoveries/"
+else:
+    BASE_URL = "/"
 IMAGE_ROUTE = "/images/" 
-IMAGE_DIR = os.path.abspath("./images/")
+IMAGE_DIR = os.path.abspath("../../images/")
 YAML_DIR = os.path.abspath("./pulsars/")
 TRAPUM_LOGO_LARGE = os.path.join(
     IMAGE_ROUTE,
@@ -238,14 +242,21 @@ class PulsarDetailGenerator:
 
     def generate(self):
         plot = self._record["discovery_parameters"]["discovery_plot"]
-        return html.Div(children=[
-            self.format_image(plot),
-            html.Br(),
-            self.format_pulsar_paramters(),
-            self.format_discovery_parameters(),
-            self.format_associations(),
-            self.format_additional_content()
-            ], style={"margin-left": "2%", "margin-right": "2%"})
+        return dcc.Loading(
+            id="pulsar-modal-load",
+            type="default",
+            children=[
+                html.Div(children=[
+                    self.format_image(plot),
+                    html.Br(),
+                    self.format_pulsar_paramters(),
+                    self.format_discovery_parameters(),
+                    self.format_associations(),
+                    self.format_additional_content()
+                    ], style={"margin-left": "2%", "margin-right": "2%"})
+                ]
+            )
+
 
 
 def update_plot(xaxis, yaxis, zaxis, logscales):
@@ -354,14 +365,14 @@ def display_graph_click_data(clickData, figure):
         pulsar_name = clickData["points"][0]["customdata"][0]
         return True, make_pulsar_display_modal(pulsar_name)
 
-"""
-@app.server.route('{}/<subdir>/<image_path>.png'.format(IMAGE_ROUTE))
-def serve_image(subdir, image_path):
-    print("request to serve", image_path, "from", subdir)
-    image_name = "{}.png".format(image_path)
-    return flask.send_from_directory(
-        os.path.join(IMAGE_DIR, subdir), image_name)
-"""
+if not PRODUCTION:
+    @app.server.route('{}/<subdir>/<image_path>.png'.format(IMAGE_ROUTE))
+    def serve_image(subdir, image_path):
+        print("request to serve", image_path, "from", subdir)
+        image_name = "{}.png".format(image_path)
+        return flask.send_from_directory(
+            os.path.join(IMAGE_DIR, subdir), image_name)
+
 
 records = load_data(YAML_DIR)
 cols, df = format_data(records)
@@ -387,14 +398,12 @@ def simple_dict_display(title, data, font_size):
         "text-align": "right",
         "color": "white",
         "font-size": font_size,
-        "text-shadow": "0 0 30px #FFFFFF",
         "font-weight": "bold"
     }
     value_style = {
         "text-align": "left",
         "color": "white",
         "font-size": font_size,
-        "text-shadow": "0 0 30px #FFFFFF"
     }
     title_style = {
         "text-align": "center"
