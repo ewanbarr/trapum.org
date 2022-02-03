@@ -15,7 +15,7 @@ import plotly.express as px
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output, State
 
-PRODUCTION = True
+PRODUCTION = False
 
 # --- Constants ---
 if PRODUCTION:
@@ -66,7 +66,7 @@ elif THEME == dbc.themes.VAPOR:
         style_cell={'padding': '10px'},
         style_header={
             'backgroundColor': 'rgba(111, 71, 190)',
-            'color': 'white'
+            'color': 'white',
         },
         style_data={
             'backgroundColor': 'rgb(27, 12, 52)',
@@ -93,7 +93,8 @@ elif THEME == dbc.themes.CYBORG:
         style_header={
             'backgroundColor': 'rgba(51, 160, 212)',
             'color': 'white',
-            'border': 'black'
+            'border': '1px solid white'
+            #'border': '1px solid black'
         },
         style_data={
             'backgroundColor': 'rgba(6, 6, 6)',
@@ -103,7 +104,8 @@ elif THEME == dbc.themes.CYBORG:
         style_filter={
             'backgroundColor': 'rgba(51, 160, 212, 0.6)',
             'color': 'black',
-            'border': '1px solid black'
+            #'border': '1px solid black'
+            'border': '1px solid rgba(51, 160, 212)'
         })
     DEFAULT_GRADIENT = "linear-gradient(rgba(255, 20, 180, 0.6), rgba(0, 0, 0, 0))"
     PULSAR_IMAGE_STYLE = {
@@ -350,6 +352,8 @@ def make_pulsar_display_modal(pulsar_name):
               Input("pulsar-table", "active_cell"),
               State("pulsar-table", "derived_viewport_data"))
 def display_table_click_data(active_cell, derived_viewport_data):
+    if active_cell is None:
+        return dash.no_update
     pulsar_name = derived_viewport_data[active_cell['row']]['name']
     return True, make_pulsar_display_modal(pulsar_name)
 
@@ -389,7 +393,7 @@ table = dash_table.DataTable(
         page_current=0,
         page_size=30,
         hidden_columns=["discovery_snr", "discovery_band", "observation_date"],
-        style_as_list_view=True,
+        style_as_list_view=False,
         **DASH_TABLE_STYLE)
 
 
