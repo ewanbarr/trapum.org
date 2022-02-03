@@ -4,7 +4,7 @@ associations:
   type: Globular Cluster
 discovery_parameters:
   backend: PTUSE
-  discovery_band: null
+  discovery_band: L-band
   discovery_date: '2020-11-03'
   discovery_plot: discoveries/M28M_discovery_plot.png
   discovery_snr: 8.3

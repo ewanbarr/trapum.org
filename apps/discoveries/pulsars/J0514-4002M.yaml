@@ -4,7 +4,7 @@ associations:
   type: Globular Cluster
 discovery_parameters:
   backend: FBFUSE/APSUSE
-  discovery_band: null
+  discovery_band: UHF
   discovery_date: '2021-05-24'
   discovery_plot: discoveries/NGC1851M_discovery_plot.png
   discovery_snr: 6.8

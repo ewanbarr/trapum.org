@@ -4,7 +4,7 @@ associations:
   type: Globular Cluster
 discovery_parameters:
   backend: FBFUSE/APSUSE
-  discovery_band: null
+  discovery_band: L-band
   discovery_date: '2021-07-07'
   discovery_plot: discoveries/NGC6624L_discovery_plot.png
   discovery_snr: 10.8

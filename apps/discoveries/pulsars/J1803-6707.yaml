@@ -4,7 +4,7 @@ associations:
   type: Fermi LAT source
 discovery_parameters:
   backend: FBFUSE/APSUSE
-  discovery_band: null
+  discovery_band: L-band
   discovery_date: '2020-10-06'
   discovery_plot: discoveries/PSR_J1803-6707_discovery_plot.png
   discovery_snr: 56.4

@@ -4,7 +4,7 @@ associations:
   type: Globular Cluster
 discovery_parameters:
   backend: PTUSE
-  discovery_band: null
+  discovery_band: L-band
   discovery_date: '2019-07-31'
   discovery_plot: discoveries/Ter5AN_discovery_plot.png
   discovery_snr: 8.0

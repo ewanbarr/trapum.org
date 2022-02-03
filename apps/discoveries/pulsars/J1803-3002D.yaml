@@ -4,7 +4,7 @@ associations:
   type: Globular Cluster
 discovery_parameters:
   backend: PTUSE
-  discovery_band: null
+  discovery_band: L-band
   discovery_date: '2019-09-06'
   discovery_plot: discoveries/NGC6522D_discovery_plot.png
   discovery_snr: 13.9

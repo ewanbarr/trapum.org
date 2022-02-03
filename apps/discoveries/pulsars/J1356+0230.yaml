@@ -4,7 +4,7 @@ associations:
   type: Fermi LAT source
 discovery_parameters:
   backend: FBFUSE/APSUSE
-  discovery_band: null
+  discovery_band: UHF
   discovery_date: '2021-12-28'
   discovery_plot: discoveries/J1356+0230_discovery_plot.png
   discovery_snr: 17.6

@@ -4,7 +4,7 @@ associations:
   type: Globular Cluster
 discovery_parameters:
   backend: PTUSE
-  discovery_band: null
+  discovery_band: L-band
   discovery_date: '2019-12-24'
   discovery_plot: discoveries/47TucAD_discovery_plot_TBR.png
   discovery_snr: 12.0

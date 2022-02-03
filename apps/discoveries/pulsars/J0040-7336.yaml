@@ -4,7 +4,7 @@ associations:
   type: Galaxy
 discovery_parameters:
   backend: FBFUSE/APSUSE
-  discovery_band: null
+  discovery_band: L-band
   discovery_date: '2021-12-29'
   discovery_plot: discoveries/SMC_K_discovery_plot.png
   discovery_snr: 29.3

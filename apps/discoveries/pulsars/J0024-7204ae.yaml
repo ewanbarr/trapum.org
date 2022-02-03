@@ -4,7 +4,7 @@ associations:
   type: Globular Cluster
 discovery_parameters:
   backend: FBFUSE/APSUSE
-  discovery_band: null
+  discovery_band: L-band
   discovery_date: '2021-11-12'
   discovery_plot: discoveries/47TucAE_discovery_plot.png
   discovery_snr: 13.0

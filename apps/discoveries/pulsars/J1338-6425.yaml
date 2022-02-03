@@ -2,7 +2,7 @@ additional_content: []
 associations: []
 discovery_parameters:
   backend: FBFUSE/APSUSE
-  discovery_band: null
+  discovery_band: L-band
   discovery_date: '2021-09-21'
   discovery_plot: discoveries/J1338-6425_discovery_plot.png
   discovery_snr: 15.7
