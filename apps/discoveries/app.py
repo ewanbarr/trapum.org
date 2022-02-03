@@ -15,7 +15,7 @@ import plotly.express as px
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output, State
 
-PRODUCTION = False
+PRODUCTION = True
 
 # --- Constants ---
 if PRODUCTION:
