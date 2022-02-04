@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: M22
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2022-01-31'
+  discovery_plot: discoveries/M22C_discovery_plot.png
+  discovery_snr: 34.0
+  observation_date: '2021-02-14'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  ra: null
+  dec: null
+  dm: 87.869
+  name: J1836-2354C
+  period: 5.64
