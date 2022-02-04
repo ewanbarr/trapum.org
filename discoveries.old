@@ -1,0 +1,1779 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+ 	<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+<HEAD>
+<TITLE>TRAPUM - Pulsar Discoveries</TITLE>
+<meta http-equiv = "refresh" content = "0; url = http://www.trapum.org/discoveries/" />
+</HEAD>
+<style>
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+    color: rgb(0, 0, 0); /* The default font color is black */
+	background-image: url("./images/discoveries/meerkat_antennas.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover  ;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color : black;
+	text-decoration: none;
+}
+a:visited {
+	color : black;
+	text-decoration: none;
+}
+a:hover {
+	color : #ff5b3f;
+	text-decoration: none;
+}
+
+.bckgnd_caption {
+	font-family: "Verdana,Arial", sans-serif;
+	font-size: 8pt;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, tr {
+  font-size: 12pt;
+  border-color: rgba(100, 100, 100, 1.0);
+}
+
+td {
+  border: 1px solid;
+  border-color: rgba(100, 100, 100, 1.0);
+}
+
+</style>
+
+<BODY>
+
+
+<!---------- MAIN BODY ------------->
+<BR>
+<BR>
+
+<CENTER>
+
+
+
+<table cellpadding="10" cellspacing="5" style="background-color: rgba(256, 256, 256, 0.85); width: 95%;    border-radius: 30px;   border: 1px solid;">
+	<!--colgroup>
+		<col style="text-align: center; width: 20%; vertical-align: top">
+		<col style="text-align: center; width: 50%; vertical-align: top">
+		<col style="text-align: center; width: 30%; vertical-align: top">
+	</colgroup-->
+<thead>
+<tr>
+<th colspan=10 style="text-align: center; height: 120px">
+
+<br>
+<span style="font-weight: bold; font-size: 24pt; vertical-align: middle; text-align: center"><A HREF=http://www.trapum.org/> <IMG SRC="./images/TRAPUM_logo_black_lock-up_01_text_centered.png" height=150px style="vertical-align: middle"  ><IMG> </A> Pulsar Discoveries </span> <p>
+<span style="font-weight: normal; font-size: 16pt">  Total discoveries: 99 </span><p>
+<span style="font-weight: normal; font-size: 12pt">  38 in globular clusters </span><br>
+<span style="font-weight: normal; font-size: 12pt">  13 in unidentified Fermi sources </span><br>
+<span style="font-weight: normal; font-size: 12pt">  4 in the Small Magellanic Cloud </span><br>
+<span style="font-weight: normal; font-size: 12pt">  44 from blind Galactic plane survey</span><p>
+<span style="font-weight: normal; font-size: 10pt">  Last update: January 25, 2022 </span><p>
+</th>
+</tr>
+</thead>
+
+<tr>
+     <tr>
+    <td colspan=9>
+        <span style="text-align: left; font-weight: normal; font-size: 9pt; border: 0px "> GC = Globular Cluster; FERMI = Unidentified &gamma;-ray Fermi source; ExGal: Extragalactic source; MGPS-L: MPIfR L-band Galactic Plane Survey; Discoveries with the PTUSE backend were made in conjunction with MeerTIME</span>
+    <td>
+    </tr>
+</tr>
+
+<tr>
+    <tr>
+		<td style="text-align: center; font-weight: bold"> # </td>
+		<td style="text-align: center; font-weight: bold"> PULSAR NAME </td>
+		<td style="text-align: center; font-weight: bold"> ASSOCIATION </td>
+		<td style="text-align: center; font-weight: bold"> P0<BR>(ms) </th>
+		<td style="text-align: center; font-weight: bold"> DM<BR>(pc cm-3) </td>
+		<td style="text-align: center; font-weight: bold"> TYPE </td>
+		<td style="text-align: center; font-weight: bold"> DATE OF DISCOVERY </td>
+		<td style="text-align: center; font-weight: bold"> DISCOVERY OBSERVATION<BR>BACKEND / DATE </td>
+		<td style="text-align: center; font-weight: bold"> DISCOVERY<BR>PLOT </td>
+		<td style="text-align: center; font-weight: bold"> DISCOVERY<BR>METHOD </td>
+    </tr>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 1 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1748-2446an</td>
+<!-- association      --> <td style="text-align: center"> GC:  Terzan 5 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.80 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 237.7 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 31-07-2019  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 27-05-2019 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+	 <A HREF="./images/discoveries/Ter5AN_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/Ter5AN_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 2 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1701-3006G</td>
+<!-- association      --> <td style="text-align: center"> GC:  M62 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.61 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 113.7 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 31-07-2019  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 29-04-2019 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+	 <A HREF="./images/discoveries/M62G_discovery_plot_TBR.png">
+    <IMG SRC="./images/discoveries/thumbnails/M62G_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 3</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1803-3002D</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6522</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 5.53 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 192.7 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 06-09-2019  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 09-08-2019 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+	 <A HREF="./images/discoveries/NGC6522D_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6522D_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 4</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1823-3021G</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6624</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 6.09 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 86.2 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+ <!-- date of disc.    --> <td style="text-align: center"> 18-10-2019  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 10-09-2019 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+	 <A HREF="./images/discoveries/NGC6624G_discovery_plot_TBR.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6624G_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 5</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0024-7204ac</td>
+<!-- association      --> <td style="text-align: center"> GC:  47 Tucanae</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.74 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 24.5 </td>
+<!-- type             --> <td style="text-align: center"> Eclipsing Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 22-10-2019  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 09-10-2019 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+	 <A HREF="./images/discoveries/47TucAC_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/47TucAC_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 6</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0024-7204ad</td>
+<!-- association      --> <td style="text-align: center"> GC:  47 Tucanae</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 3.74 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 24.4 </td>
+<!-- type             --> <td style="text-align: center"> Eclipsing Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 24-12-2019  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 14-12-2019 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+	 <A HREF="./images/discoveries/47TucAD_discovery_plot_TBR.png">
+    <IMG SRC="./images/discoveries/thumbnails/47TucAD_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 7</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1910-5959F</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6752</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 8.48 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 33.2 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 02-02-2020  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 02-01-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+	 <A HREF="./images/discoveries/NGC6752F_discovery_plot_TBR.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6752F_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 8</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1823-3021H</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6624</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 5.13 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 86.8 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 04-03-2020  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 22-01-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+	 <A HREF="./images/discoveries/NGC6624H_discovery_plot_TBR.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6624H_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 9</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1748-2021G</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6440</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 5.21 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 219.7 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 09-03-2020  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 25-08-2019 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+	 <A HREF="./images/discoveries/NGC6440G_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6440G_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A> acceleration search</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 10</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1748-2021H</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6440</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.85 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 222.6 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 14-04-2020  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 07-08-2019 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+	 <A HREF="./images/discoveries/NGC6440H_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6440H_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 11 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1823-3543 </td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 4FGL J1823.8-3544 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.37 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 81.66 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 01-10-2020 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 04-07-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1823.8-3544_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1823.8-3544_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 12 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1858-5422 </td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 4FGL J1858.3-5424 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.36 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 30.81 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 01-10-2020 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 04-07-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1858.3-5424_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1858.3-5424_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 13 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1526-2744 </td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 4FGL J1526.6-2743 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.49 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 30.97 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 06-10-2020 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 20-06-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1526.6-4723_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1526.6-4723_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 14</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1803-6707</td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 3FGL J1803.3-6706 <br> 4FGL J1803.1-6708 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.13 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 38.4 </td>
+<!-- type             --> <td style="text-align: center"> Eclipsing Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 06-10-2020 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 20-06-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/PSR_J1803-6707_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/PSR_J1803-6707_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 15 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1906-1754 </td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 4FGL J1906.4-1757 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.88 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 98.09 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 22-10-2020 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 01-10-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1906.4-1757_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1906.4-1757_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 16 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1824-2452M</td>
+<!-- association      --> <td style="text-align: center"> GC:  M28</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 9.57 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 119.3 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 03-11-2020 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> PTUSE / 19-07-2019 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/M28M_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/M28M_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A> acceleration search</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 17 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1709-0333</td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 3FGL J1709.5-0335 <br> 4FGL J1709.4-0328 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 3.52</td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 37.8 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 19-01-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 13-12-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/PSR_J1709-0333_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/PSR_J1709-0333_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 18 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1910-5959G</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6752 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.79 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 33.3 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 20-01-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 21-11-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6752G_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6752G_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 19 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1623-6936 </td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 4FGL J1623.9-6936 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.41 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 46.44 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 22-01-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 13-12-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1623.9-6936_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1623.9-6936_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 20 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1757-6032 </td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 4FGL J1757.7-6032 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.91 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 62.90 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 22-01-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 29-11-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1757.7-6032_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1757.7-6032_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 21 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1824-2452N </td>
+<!-- association      --> <td style="text-align: center"> GC:  M28 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 3.35</td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 119.3 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 28-01-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 11-12-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/M28N_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/M28N_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A> acceleration search</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 22 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1721-1936B</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6342 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.57 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 71.4 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 29-01-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 25-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6342B_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6342B_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 23 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002B</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.81 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 52.1 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 16-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 15-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851B_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851B_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 24 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002C</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 5.56 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 52.0 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 16-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 15-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851C_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851C_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 25 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002D</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.55 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 52.2 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 16-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 15-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851D_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851D_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 26 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002E</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 5.59 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 51.9 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 16-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 15-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851E_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851E_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 27 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002F</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.33 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 51.6 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 16-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 15-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851F_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851F_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 28 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002G</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 3.80 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 51.0 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 16-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 15-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851G_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851G_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 29 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002H</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 5.50 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 52.3 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 16-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 15-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851H_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851H_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 30 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1910-5959H</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6752 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.01 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 33.2 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 19-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 22-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6752H_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6752H_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 31 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1910-5959I</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6752 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.65 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 33.3 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 19-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 22-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6752I_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6752I_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 32</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1823-3021I</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6624</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.32 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 87.3 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 04-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 21-05-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6624I_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6624I_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 33</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1823-3021J</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6624</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 20.89 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 86.8 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 08-02-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 11-08-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6624J_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6624J_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 34</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0048-7317</td>
+<!-- association      --> <td style="text-align: center"> ExGal:  Small Magellanic Cloud</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 79.31 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 292.2 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 15-03-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 14-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/SMC_H_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/SMC_H_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 35</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0054-7228</td>
+<!-- association      --> <td style="text-align: center"> ExGal:  Small Magellanic Cloud</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 290.94 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 92.4 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 15-03-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 14-01-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/SMC_I_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/SMC_I_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 36</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1750-3703E</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6441</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 251.15 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 230.9 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 20-03-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 09-07-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6441E_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6441E_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 37</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1750-3703F</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6441</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 6.00 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 228.2 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 21-03-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 09-07-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6441F_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6441F_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 38</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1750-3703G</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6441</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 5.35 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 229.2 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 08-04-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 26-11-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6441G_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6441G_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 39 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002I</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 32.65 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 52.4 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 10-05-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 08-05-2021 <br> (obs. id 02L-trapum)</td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851I_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851I_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 40 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1306-6043 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L: MSGPS_L_2063 <br> FERMI: 4FGL J1306.3-6043 </td>   </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 5.67 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 67.0 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 19-05-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 11-04-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1306-6043_MSGPS_L_2063_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1306-6043_MSGPS_L_2063_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 41 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002J</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 6.63 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 52.0 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 21-05-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 21-05-2021 <br> (obs. id 04U-trapum)</td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851J_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851J_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 42 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002K</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.69 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 51.9 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 22-05-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 21-05-2021 <br> (obs. id 04U-trapum) </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851K_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851K_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 43 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002L</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.95 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 51.2 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 23-05-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 21-05-2021 <br> (obs. id 05U-trapum) </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851L_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851L_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 44 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002M</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.79 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 51.7 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 24-05-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 24-05-2021 <br> (obs. id 06U-trapum) </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851M_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851M_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 45</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0044-7314</td>
+<!-- association      --> <td style="text-align: center"> ExGal:  Small Magellanic Cloud</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 396.89 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 78.2 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 24-05-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 24-04-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/SMC_J_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/SMC_J_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 46 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0514-4002N</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 1851 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 5.56 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 51.1 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 28-05-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 26-05-2021 <br> (obs. id 07U-trapum) </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC1851N_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC1851N_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 47 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0955-3949 </td>
+<!-- association      --> <td style="text-align: center"> Fermi:<br> 3FGL J0954.8-3948 <br> 4FGL J0955.3-3949 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.02 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 130.7 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 03-06-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 08-03-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J0955-3949_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J0955-3949_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 48 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1353-6341 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2285 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2076 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 439 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 22-05-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 30-04-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1353-6341_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1353-6341_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 49 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1208-5936 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_1720 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 28.7 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 344.4 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 30-05-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 06-05-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1208-5936_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1208-5936_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 50 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J2333-5526 </td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 4FGL J2333.1-5527 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.10 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 19.9 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 17-06-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 10-04-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J2333-5526_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J2333-5526_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 51 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1452-5549 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2756 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 75.3 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 184 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 11-06-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 20-05-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1452-5549_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1452-5549_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 52 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1536-6149 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2806 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 6.88 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 246 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 11-06-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 25-05-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1536-6149_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1536-6149_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 53 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1536-6142 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2806 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 369 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 292 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 11-06-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 25-05-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1536-6142_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1536-6142_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 54 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1212-5838 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_1745 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 73.8 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 146 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 29-06-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 11-06-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1212-5838_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1212-5838_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 55 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1806-2125 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> HTRU-S special </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 172 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 555 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 01-07-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 16-05-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1806-2125_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1806-2125_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 56 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1449-6339 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> HTRU-S special </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 29.5 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 75.4 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 01-07-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 16-06-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1449-6339_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1449-6339_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 57 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1554-5906 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2969 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 8.70 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 120 </td>
+<!-- type             --> <td style="text-align: center"> Isolated? </td>
+<!-- date of disc.    --> <td style="text-align: center"> 09-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 06-07-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1554-5906_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1554-5906_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 58 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1155-6529 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_1706 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 78.9 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 33 </td>
+<!-- type             --> <td style="text-align: center"> Binary? </td>
+<!-- date of disc.    --> <td style="text-align: center"> 10-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 09-07-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1155-6529_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1155-6529_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 59 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1615-5609 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3153 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 3.36 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 72 </td>
+<!-- type             --> <td style="text-align: center"> Isolated? </td>
+<!-- date of disc.    --> <td style="text-align: center"> 11-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 25-07-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1615-5609_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1615-5609_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 60</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1823-3021K</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6624</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2497.72 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 96.9 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 24-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 11-08-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6624K_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6624K_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 61</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1823-3021L</td>
+<!-- association      --> <td style="text-align: center"> GC:  NGC 6624</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.76 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 87.5 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 07-07-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 21-05-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/NGC6624L_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/NGC6624L_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 62 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1708-4843 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3657 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 16.7 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 29 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 20-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 30-07-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1708-4843_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1708-4843_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 63 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1148-6546 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_1682 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 1497 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 121.5 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 24-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 03-08-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1148-6546_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1148-6546_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 64 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1138-6154 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_1598 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 624 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 456 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 25-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 10-08-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1138-6154_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1138-6154_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 65 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1540-5821 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2927 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 3475 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 427 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 26-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 10-08-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1540-5821_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1540-5821_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 66 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1134-6207 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_1551 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 689 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 662 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 30-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 17-08-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1134-6207_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1134-6207_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 67 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1650-5025 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3522 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 59.7 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 213 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 06-09-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 20-08-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1650-5025_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1650-5025_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 68 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1633-4859 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3483 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2515 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 1020 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 13-09-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 27-08-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1633-4859_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1633-4859_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 69 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1610-4938 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3350 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 227 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 365 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 17-09-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 31-08-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1610-4938_discovery.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1610-4938_discovery(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 70 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0838-2827 </td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 3FGL J0838.8-2829 <br> 4FGL J0838.7-2827 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 3.62 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 80.7 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 16-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 18-06-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J0838-2827_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J0838-2827_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 71 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1259-8148 </td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 3FGL J1259.3-8151 <br> 4FGL J1259.0-8148 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 2.09 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 44.3 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 23-09-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 14-09-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1259-8148_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1259-8148_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 72 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1338-6425 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2215 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.09 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 86 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 21-09-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 04-09-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1338-6425_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1338-6425_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 73 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1108-6329 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_1454 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.28 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 233 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 23-09-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 10-09-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1108-6329_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1108-6329_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 74 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1645-4836 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3572 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 1660 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 687 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 24-09-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 04-09-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1645-4836_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1645-4836_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 75 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1036-4353 </td>
+<!-- association      --> <td style="text-align: center"> FERMI:<br> 3FGL J1036.4-4348 <br> 4FGL J1036.6-4349 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 1.68 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 61.1 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 31-08-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 29-11-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1036-4353_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1036-4353_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 76 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1701-3006H</td>
+<!-- association      --> <td style="text-align: center"> GC:  M62 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 3.70 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 114.7 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 22-11-2021  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 14-10-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/M62H_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/M62H_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 77</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0040-7336</td>
+<!-- association      --> <td style="text-align: center"> ExGal:  Small Magellanic Cloud</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 145.22 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 198 </td>
+<!-- type             --> <td style="text-align: center"> Isolated </td>
+<!-- date of disc.    --> <td style="text-align: center"> 29-12-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 27-10-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/SMC_K_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/SMC_K_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 78 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1520-5402 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2939 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 270.7 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 34 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 13-10-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 25-09-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1520-5402_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1520-5402_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 79 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1316-6147 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2107 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 1933 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 625 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 14-10-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 25-09-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1316-6147_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1316-6147_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 80 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1604-4832 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3353 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 7.718 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 207.8 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 26-10-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 05-10-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1604-4832_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1604-4832_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 81 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1623-4931 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3456 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 492 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 727 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 28-10-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 12-10-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1623-4931_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1623-4931_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 82 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1336-6633 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2164 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 543 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 212 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 28-10-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 15-10-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1336-6633_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1336-6633_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 83 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1232-5843 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_1884 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 285 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 207 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 06-11-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 29-10-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1232-5843_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1232-5843_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 84 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1020-6158 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_1198 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 283 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 363 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 29-11-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 08-11-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1020-6158_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1020-6158_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 85 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1231-5929 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_1882 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 410 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 356 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 29-11-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 08-11-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1231-5929_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1231-5929_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 86 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0954-5754 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_0971 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.84 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 307.35 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 02-12-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 12-11-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J0954-5754_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J0954-5754_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 87 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1500-6054 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2675 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 214 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 419 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 09-12-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 19-11-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1500-6054_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1500-6054_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 88 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1001-5603 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_0953 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 380 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 235 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 10-12-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 19-11-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1001-5603_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1001-5603_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 89 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1352-6141 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2312 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 4.74 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 76.3 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 14-12-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 27-11-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1352-6141_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1352-6141_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 90 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1359-6242 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2333 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 900 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 784 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 23-12-2021 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 10-12-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1359-6242_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1359-6242_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 91 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1454-5416 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2782 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 396 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 142 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 03-01-2022 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 19-12-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1454-5416_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1454-5416_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 92 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1547-5058 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3169 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 453 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 107 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 04-01-2022 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 19-12-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1547-5058_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1547-5058_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 93</td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J0024-7204ae</td>
+<!-- association      --> <td style="text-align: center"> GC:  47 Tucanae</td>
+<!-- spin period (ms) --> <td style="text-align: center"> 3.87 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 24.3 </td>
+<!-- type             --> <td style="text-align: center"> Binary </td>
+<!-- date of disc.    --> <td style="text-align: center"> 12-11-2021  </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 02-05-2020 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/47TucAE_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/47TucAE_discovery_plot_thumbnail.png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="http://alex88ridolfi.altervista.org/pagine/pulsar_software_PULSAR_MINER.html">PULSAR_MINER</A>
+<BR>(<A HREF="https://www.cv.nrao.edu/~sransom/presto/">PRESTO</A>-based acceleration search pipeline)</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 94 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1702-4145 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3898 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 346 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 945 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 11-01-2022 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 26-12-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1702-4145_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1702-4145_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 95 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1623-4608 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3536 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 866 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 110 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 16-01-2022 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 31-12-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1623-4608_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1623-4608_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 96 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1328-6605 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2142 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 734 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 329 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 17-01-2022 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 28-12-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1328-6605_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1328-6605_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 97 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1636-4217 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_3745 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 555 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 345 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 14-01-2022 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 31-12-2021 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1636-4217_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1636-4217_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 98 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1436-6405 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_2487 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 9.33 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 148 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 21-01-2022 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 08-01-2022 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1436-6405_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1436-6405_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+<tr>
+<!-- discovery number --> <td style="text-align: center"> 99 </td>
+<!-- pulsar name      --> <td style="text-align: center; font-weight: bold"> J1716-3811 </td>
+<!-- association      --> <td style="text-align: center"> MGPS-L:<br> MSGPS_L_4105 </td>
+<!-- spin period (ms) --> <td style="text-align: center"> 1219 </td>
+<!-- DM (pc cm-3)     --> <td style="text-align: center"> 829 </td>
+<!-- type             --> <td style="text-align: center"> Unknown </td>
+<!-- date of disc.    --> <td style="text-align: center"> 24-01-2022 </td>
+<!-- disc. obs/date   --> <td style="text-align: center"> TRAPUM / 08-01-2022 </td>
+<!-- discovery plot   --> <td style="text-align: center">
+     <A HREF="./images/discoveries/J1716-3811_discovery_plot.png">
+    <IMG SRC="./images/discoveries/thumbnails/J1716-3811_discovery_plot(1).png" height=100px ><IMG></A> <BR></td>
+<!-- discovery method --> <td style="text-align: center">
+<A HREF="https://github.com/ewanbarr/peasoup">PEASOUP</A> acceleration search</td>
+</tr>
+
+</table>
+
+</CENTER>
+
+<BR>
+<BR>
+<DIV>
+	<TABLE border=0 width="100%" style="border: 0px;">
+	<TR>
+		<TD width="33.33%" class="bckgnd_caption" style="border: 0px;"> <A HREF="./images/discoveries/meerkat_antennas.jpg"  style="color: black"> Background image: MeerKAT antennas (A. Ridolfi) </A></TD>
+	</TR>
+	</TABLE>
+</DIV>
+
+</BODY>
+
+
+
+</HTML>
