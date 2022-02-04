@@ -17,7 +17,7 @@ pulsar_parameters:
     ecc: null
     pb: null
   dec: null
-  dm: 829
+  dm: 1219
   name: J1716-3811
-  period: 1219
+  period: 829
   ra: null
