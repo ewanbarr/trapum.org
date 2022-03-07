@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2022-03-01'
+  discovery_plot: discoveries/J1426-6136_discovery_plot.png
+  discovery_snr: 15
+  observation_date: '2022-02-12'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 722
+  name: J1426-6136
+  period: 283.7
+  ra: null
