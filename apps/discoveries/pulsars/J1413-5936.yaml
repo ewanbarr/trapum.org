@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2022-02-20'
+  discovery_plot: discoveries/J1413-5936_discovery_plot.png
+  discovery_snr: 12
+  observation_date: '2022-02-05'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 366
+  name: J1413-5936
+  period: 21.68
+  ra: null
