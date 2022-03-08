@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2022-03-08'
+  discovery_plot: discoveries/J1030-6008_discovery_plot.png 
+  discovery_snr: 22
+  observation_date: '2022-02-20'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 370.8
+  name: J1030-6008
+  period: 27.32
+  ra: null
