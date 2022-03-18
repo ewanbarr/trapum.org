@@ -17,7 +17,7 @@ pulsar_parameters:
     ecc: null
     pb: null
   dec: null
-  dm: 120.0
+  dm: 130.0
   name: J1554-5906
   period: 8.7
   ra: null
