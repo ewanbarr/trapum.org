@@ -1,0 +1,25 @@
+additional_content: 
+  - title: Note
+    body: "Background source discovered in incoherent beam"
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2021-12-24'
+  discovery_plot: discoveries/J1207-45_discovery_plot.png
+  discovery_snr: 15
+  observation_date: '2021-12-15'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 23.76
+  name: J1207-45
+  period: 476.15
+  ra: null
