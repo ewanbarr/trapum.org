@@ -5,7 +5,7 @@ additional_content:
 associations: []
 discovery_parameters:
   backend: FBFUSE/APSUSE
-  discovery_band: UHF
+  discovery_band: L-band
   discovery_date: '2021-03-01'
   discovery_plot: discoveries/J1819-15_discovery_plot.png
   discovery_snr: 37
