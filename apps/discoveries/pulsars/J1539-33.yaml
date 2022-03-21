@@ -1,6 +1,7 @@
 additional_content: 
   - title: Note
     body: "Background source discovered in incoherent beam"
+    images: []
 associations: []
 discovery_parameters:
   backend: FBFUSE/APSUSE
