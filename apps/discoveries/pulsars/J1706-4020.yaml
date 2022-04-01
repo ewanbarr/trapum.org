@@ -3,21 +3,21 @@ associations: []
 discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: L-band
-  discovery_date: '2022-02-16'
-  discovery_plot: discoveries/J1034-5934_discovery_plot.png
-  discovery_snr: 12
-  observation_date: '2022-02-03'
+  discovery_date: '2022-02-10'
+  discovery_plot: discoveries/J1706-4020_discovery_plot.png
+  discovery_snr: 10
+  observation_date: '2021-01-30'
   pipeline: Peasoup
   project: MGPS-L
 pulsar_parameters:
   aliases: []
-  binary: true 
+  binary: false
   binary_parameters:
     asini: null
     ecc: null
     pb: null
   dec: null
-  dm: 603.8
-  name: J1034-5934
-  period: 34.47
+  dm: 598
+  name: J1706-4020
+  period: 180.63
   ra: null
