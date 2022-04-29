@@ -1,0 +1,14 @@
+---
+title: "Two New Black Widow Millisecond Pulsars In M28"
+author: "Douglas et al."
+year: 2022
+psrrefs: "Douglas+2021"
+blurb: "We report the discovery of two Black Widow millisecond pulsars in the globular cluster M28 with the MeerKAT telescope"
+image: "publications/douglas_et_al_2022.png"
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2022arXiv220111238D/abstract"
+  - "https://arxiv.org/abs/2201.11238"
+  - "https://doi.org/10.1093/mnras/stab790"
+discoveries:
+  - "PSR J1824-2452M"
+  - "PSR J1824-2452N"

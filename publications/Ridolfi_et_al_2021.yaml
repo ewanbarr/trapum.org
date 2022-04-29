@@ -1,0 +1,20 @@
+---
+title: "Eight new millisecond pulsars from the first MeerKAT globular cluster census"
+author: "Ridolfi et al."
+year: 2021
+psrrefs: "Ridolfi+2021"
+blurb: "We present the first eight pulsar discoveries made by MeerKAT. The eight pulsars are found in six different globular clusters and are all millisecond pulsars."
+image: "publications/ridolfi_et_al_2021.png"
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.1407R/abstract"
+  - "https://arxiv.org/abs/2103.04800"
+  - "https://doi.org/10.1093/mnras/stab790"
+pulsars:
+  - "J1748-2446an"
+  - "J1701-3006G"
+  - "J1803-3002D"
+  - "J1823-3021G"
+  - "J0024-7204ac"
+  - "J0024-7204ad"
+  - "J1910-5959F"
+  - "J1823-3021H"
