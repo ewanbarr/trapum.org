@@ -1,0 +1,11 @@
+---
+title: "Wide field beamformed observation with MeerKAT"
+author: "Chen et al."
+year: 2021
+psrrefs: "Chen+2021"
+blurb: "We describe a wide-field beamformer for the MeerKAT radio telescope and outline strategies to optimally design pulsar and fast transient surveys."
+image: "publications/chen_et_al_2022.png"
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2021JAI....1050013C/abstract"
+  - "https://arxiv.org/abs/2110.01667"
+  - "https://doi.org/10.1142/S2251171721500136"

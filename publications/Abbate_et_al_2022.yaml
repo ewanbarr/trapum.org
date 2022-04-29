@@ -1,0 +1,16 @@
+---
+title: "Four pulsar discoveries in NGC 6624 by TRAPUM using MeerKAT"
+author: "Abbate et al."
+year: 2022
+psrrefs: "Abbate+2022"
+blurb: "We report the discovery of four new pulsars in the globular cluster NGC 6624 with the MeerKAT telescope. One of these (J1823-3022) shows a large offset in its position and dispersion measure when compared to all the other pulsars in NGC 6624, making its association with the cluster uncertain."
+image: "publications/abbate_et_al_2022.png"
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2022MNRAS.tmp.1002A/abstract"
+  - "https://arxiv.org/abs/2204.05334"
+  - "https://doi.org/10.1093/mnras/stac1041"
+pulsars:
+  - "J1823-3021I"
+  - "J1823-3021J"
+  - "J1823-3021K"
+  - "J1823-3022"

@@ -1,0 +1,14 @@
+---
+title: "Discoveries and Timing of Pulsars in NGC 6440"
+author: "Vleeschower et al."
+year: 2022
+psrrefs: "Vleeschower+2022"
+blurb: "We report the MeerKAT discovery of two pulsars in the globular cluster NGC 6440, as well as long-term timing solutions of the previously known pulsars NGC 6440C and NGC 6440D from multi-telescope data."
+image: "publications/vleeschower_et_al_2022.png"
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2022MNRAS.tmp..889V/abstract"
+  - "https://arxiv.org/abs/2204.00086"
+  - "https://doi.org/10.1093/mnras/stac921"
+pulsars:
+  - "J1748−2021G"
+  - "J1748−2021H"
