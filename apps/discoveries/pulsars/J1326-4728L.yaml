@@ -7,7 +7,7 @@ discovery_parameters:
   discovery_band: L-band
   discovery_date: '2022-04-21'
   discovery_plot: discoveries/OmegaCenL_discovery_plot.png
-  discovery_snr: 0.0
+  discovery_snr: 18.6
   observation_date: '2021-03-21'
   pipeline: PULSAR_MINER / Presto
   project: GC
