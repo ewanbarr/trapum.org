@@ -11,7 +11,7 @@ discovery_parameters:
   project: MGPS-L
 pulsar_parameters:
   aliases: []
-  binary: true
+  binary: false
   binary_parameters:
     asini: null
     ecc: null
