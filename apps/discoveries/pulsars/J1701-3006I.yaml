@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: M62
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2022-08-14'
+  discovery_plot: discoveries/M62I_discovery_plot.png
+  discovery_snr: 11.0
+  observation_date: '2021-09-21'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 113.3
+  name: J1701-3006I
+  period: 3.29
+  ra: null
