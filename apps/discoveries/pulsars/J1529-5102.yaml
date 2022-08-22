@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2022-07-07'
+  discovery_plot: discoveries/J1529-5102_discovery_plot.png
+  discovery_snr: 11.28
+  observation_date: '2022-06-10'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 193.80
+  name: J1529-5102
+  period: 1268.45
+  ra: null

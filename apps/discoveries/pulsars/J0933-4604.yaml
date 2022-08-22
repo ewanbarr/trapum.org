@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2022-07-28'
+  discovery_plot: discoveries/J0933-4604_discovery_plot.png
+  discovery_snr: 19.2
+  observation_date: '2022-07-22'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 123
+  name: J0933-4604
+  period: 3669.91
+  ra: null
