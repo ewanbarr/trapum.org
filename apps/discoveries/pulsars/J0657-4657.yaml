@@ -1,0 +1,25 @@
+additional_content: [] 
+associations:
+- name: 4FGL J0657.4-4658
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2022-06-07'
+  discovery_plot: discoveries/J0657-4657_discovery_plot.png
+  discovery_snr: 18.0
+  observation_date: '2022-05-31'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 126.0
+  name: J0657-4657
+  period: 3.95
+  ra: null

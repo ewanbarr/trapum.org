@@ -1,0 +1,25 @@
+additional_content: [] 
+associations:
+- name: 4FGL J1823.2+1209
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2021-09-22'
+  discovery_plot: discoveries/J1823+1209_discovery_plot.png
+  discovery_snr: 9.6
+  observation_date: '2021-09-14'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 40.7
+  name: J1823+1209
+  period: 5.21
+  ra: null
