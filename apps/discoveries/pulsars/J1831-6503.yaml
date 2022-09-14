@@ -1,0 +1,25 @@
+additional_content: [] 
+associations:
+- name: 4FGL J1831.1-6503
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2022-08-22'
+  discovery_plot: discoveries/J1831-6503_discovery_plot.png
+  discovery_snr: 13.5
+  observation_date: '2022-07-26'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 25.7
+  name: J1831-6503
+  period: 1.85
+  ra: null
