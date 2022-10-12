@@ -1,15 +1,15 @@
 additional_content: 
   - title: Note
-    body: "Background source discovered in incoherent beam"
+    body: "Source discovered in G22.045-0.028"
     images: []
 associations: []
 discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: L-band
-  discovery_date: '2022-03-01'
-  discovery_plot: discoveries/J1819-15_discovery_plot.png
-  discovery_snr: 37
-  observation_date: '2022-02-07'
+  discovery_date: '2022-06-03'
+  discovery_plot: discoveries/J1831-0942_discovery_plot.png
+  discovery_snr: 16
+  observation_date: '2022-06-03'
   pipeline: Peasoup
   project: TeV/SNR/PWNe
 pulsar_parameters:
@@ -20,7 +20,7 @@ pulsar_parameters:
     ecc: null
     pb: null
   dec: null
-  dm: 706
-  name: J1819-15
-  period: 1364.94
+  dm: 377
+  name: J1831-0942
+  period: 300.85
   ra: null
