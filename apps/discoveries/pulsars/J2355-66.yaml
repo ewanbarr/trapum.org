@@ -1,0 +1,26 @@
+additional_content: 
+  - title: Note
+    body: "Background source discovered in incoherent beam"
+    images: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2021-09-23'
+  discovery_plot: discoveries/J2355-66_discovery_plot.png
+  discovery_snr: 11.7
+  observation_date: '2021-09-14'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 19.5
+  name: J2355-66
+  period: 121.5
+  ra: null
