@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: Large Magellanic Cloud
+  type: Galaxy
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2022-10-05'
+  discovery_plot: discoveries/LMC_5_discovery_plot.png
+  discovery_snr: 16.34
+  observation_date: '2022-09-08'
+  pipeline: Peasoup
+  project: ExGal
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 82.0
+  name: J0518-6945
+  period: 1690.414
+  ra: null
