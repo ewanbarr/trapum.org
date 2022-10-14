@@ -1,4 +1,7 @@
-additional_content: []
+additional_content: 
+  - title: Note
+    body: "Young 37 kyr pulsar with a large Vela-like glitch"
+    images: []
 associations:
 - name: Small Magellanic Cloud
   type: Galaxy
