@@ -6,7 +6,7 @@ discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: UHF
   discovery_date: '2022-06-07'
-  discovery_plot: discoveries/J1823+1209_discovery_plot.png
+  discovery_plot: discoveries/J1910-5320_discovery_plot.png
   discovery_snr: 380.3
   observation_date: '2022-05-31'
   pipeline: Peasoup
