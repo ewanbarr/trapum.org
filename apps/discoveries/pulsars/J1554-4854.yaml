@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2022-08-22'
+  discovery_plot: discoveries/J1554-4854_discovery_plot.jpeg
+  discovery_snr: 29.22
+  observation_date: '2022-08-12'
+  pipeline: Peasoup
+  project: MGPS-L
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 255.6
+  name: J1208-5936
+  period: 464.8
+  ra: null
