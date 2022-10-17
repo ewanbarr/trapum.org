@@ -1,6 +1,6 @@
 additional_content: 
   - title: Note
-    body: "Young 37 kyr pulsar with a large Vela-like glitch"
+    body: "Young 28 kyr pulsar in a Pulsar Wind Nebula and Supernova Remnant DEM S5"
     images: []
 associations:
 - name: Small Magellanic Cloud
@@ -8,10 +8,10 @@ associations:
 discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: L-band
-  discovery_date: '2021-03-15'
-  discovery_plot: discoveries/SMC_H_discovery_plot.png
-  discovery_snr: 32.1
-  observation_date: '2021-01-14'
+  discovery_date: '2021-11-29'
+  discovery_plot: discoveries/SMC_M_discovery_plot.png
+  discovery_snr: 22.8
+  observation_date: '2021-10-27'
   pipeline: Peasoup
   project: ExGal
 pulsar_parameters:
@@ -22,7 +22,7 @@ pulsar_parameters:
     ecc: null
     pb: null
   dec: null
-  dm: 292.2
-  name: J0048-7317
-  period: 79.31
+  dm: 101.7
+  name: J0040-7337
+  period: 59.89
   ra: null
