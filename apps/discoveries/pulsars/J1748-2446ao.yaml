@@ -3,7 +3,7 @@ associations:
 - name: Terzan 5
   type: Globular Cluster
 discovery_parameters:
-  backend: PTUSE
+  backend: FBFUSE/APSUSE
   discovery_band: L-band
   discovery_date: '2022-11-10'
   discovery_plot: discoveries/Ter5AO_discovery_plot.png
