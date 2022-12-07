@@ -4,7 +4,7 @@ discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: L-band
   discovery_date: '2022-08-22'
-  discovery_plot: discoveries/J1554-4854_discovery_plot.jpeg
+  discovery_plot: discoveries/J1554-4854_discovery_plot.png
   discovery_snr: 29.22
   observation_date: '2022-08-12'
   pipeline: Peasoup
@@ -18,6 +18,6 @@ pulsar_parameters:
     pb: null
   dec: null
   dm: 255.6
-  name: J1208-5936
+  name: J1554-4854
   period: 464.8
   ra: null

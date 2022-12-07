@@ -3,10 +3,10 @@ associations: []
 discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: L-band
-  discovery_date: '2022-08-29'
-  discovery_plot: discoveries/J1704-3549_discovery_plot.png
-  discovery_snr: 26.81
-  observation_date: '2022-08-16'
+  discovery_date: '2022-11-25'
+  discovery_plot: discoveries/J1649-3752_discovery_plot.png
+  discovery_snr: 24.75
+  observation_date: '2022-11-06'
   pipeline: Peasoup
   project: MGPS-L
 pulsar_parameters:
@@ -17,7 +17,7 @@ pulsar_parameters:
     ecc: null
     pb: null
   dec: null
-  dm: 291.57
-  name: J1704-3459
-  period: 2270.5
+  dm: 222.90
+  name: J1647-3752
+  period: 587.24
   ra: null
