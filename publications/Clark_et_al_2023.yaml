@@ -1,0 +1,21 @@
+---
+title: "The TRAPUM L-band survey for pulsars in Fermi-LAT gamma-ray sources"
+author: "Clark et al."
+year: 2023
+psrrefs: "Clark+2023"
+blurb: "We present the discovery of 9 new millisecond pulsars from our targeted survey of unidentified Fermi-LAT gamma-ray sources. All but one of these new pulsars are in binary systems, of which two are eclipsing redbacks with optical counterparts."
+image: ""
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2023MNRAS.519.5590C/abstract"
+  - "https://arxiv.org/abs/2212.08528"
+  - "https://dx.doi.org/10.1093/mnras/stac3742"
+pulsars:
+  - "J1036-4353"
+  - "J1526-2744"
+  - "J1623-6936"
+  - "J1709-0333"
+  - "J1757-6032"
+  - "J1803-6707"
+  - "J1823-3543"
+  - "J1858-5422"
+  - "J1906-1754"
