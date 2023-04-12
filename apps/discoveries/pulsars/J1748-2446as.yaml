@@ -13,7 +13,7 @@ discovery_parameters:
   project: GC
 pulsar_parameters:
   aliases: []
-  binary: unknown
+  binary: false
   binary_parameters:
     asini: null
     ecc: null
