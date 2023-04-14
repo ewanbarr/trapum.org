@@ -1,0 +1,25 @@
+additional_content: [] 
+associations:
+- name: 4FGL J1711.9-1922
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2023-02-28'
+  discovery_plot: discoveries/J1712-1920_discovery_plot.png
+  discovery_snr: 26.3
+  observation_date: '2023-02-03'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 49.4
+  name: J1712-1920
+  period: 1.81
+  ra: null
