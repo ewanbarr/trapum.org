@@ -1,0 +1,26 @@
+additional_content: 
+  - title: Note
+    body: "Background source discovered in incoherent beam"
+    images: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2023-02-28'
+  discovery_plot: discoveries/J1924-10_discovery_plot.png
+  discovery_snr: 16.4
+  observation_date: '2023-02-03'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 60.48
+  name: J1924-10
+  period: 114.7
+  ra: null
