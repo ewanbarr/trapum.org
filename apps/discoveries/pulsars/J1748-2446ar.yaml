@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: Terzan 5
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2023-03-03'
+  discovery_plot: discoveries/Ter5AR_discovery_plot.png
+  discovery_snr: 14.3
+  observation_date: '2020-09-05'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 238.7
+  name: J1748-2446ar
+  period: 1.95
+  ra: null
