@@ -1,4 +1,3 @@
-additional_content: []
 associations:
 - name: 4FGL J2333.1-5527
   type: Fermi LAT source
@@ -23,3 +22,8 @@ pulsar_parameters:
   name: J2333-5526
   period: 2.1
   ra: null
+additional_content:
+  - title: "Gamma-ray Pulsations from J2333-5526"
+    images:
+      - "gamma_ray_detections/J2333-5526_gammaray_profile.png"
+    body: "Gamma-ray pulse profile of PSR J2333-5526 in Fermi-LAT data."
