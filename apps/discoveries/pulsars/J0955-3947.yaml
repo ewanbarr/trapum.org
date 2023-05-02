@@ -1,4 +1,3 @@
-additional_content: []
 associations:
 - name: 3FGL J0954.8-3948  4FGL J0955.3-3949
   type: Fermi LAT source
@@ -23,3 +22,8 @@ pulsar_parameters:
   name: J0955-3947
   period: 2.02
   ra: null
+additional_content:
+  - title: "Gamma-ray Pulsations from J0955-3947"
+    images:
+      - "gamma_ray_detections/J0955-3947_gammaray_profile.png"
+    body: "Gamma-ray pulse profile of PSR J0955-3947 in Fermi-LAT data."
