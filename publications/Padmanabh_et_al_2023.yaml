@@ -6,7 +6,7 @@ psrrefs: "Padmanabh+2023"
 blurb: "We present here the overview and setup for the 3000 hour Max-Planck-Institut fuer Radioastronomie (MPIfR) MeerKAT Galactic Plane survey (MMGPS). The survey is unique by operating in a commensal mode, addressing key science objectives of the survey including the discovery of new pulsars and transients as well as studies of Galactic magnetism, the interstellar medium and star formation rates. We have so far discovered 78 new pulsars including 17 confirmed binary systems of which two are potential double neutron star systems. We have also developed an imaging pipeline sensitive to the order of a few tens of micro-Jansky with a spatial resolution of a few arcseconds. Further science operations with an in-house built S-Band receiver operating between 1.7-3.5 GHz are about to commence"
 image: ""
 links:
-  - "https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp.1820P/abstract"
+  - "https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.1291P/abstract"
   - "https://arxiv.org/abs/2303.09231"
   - "https://doi.org/10.1093/mnras/stad1900"
 pulsars:
