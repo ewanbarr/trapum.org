@@ -1,0 +1,25 @@
+additional_content: [] 
+associations:
+- name: 4FGL J0739.6-4530
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2023-05-30'
+  discovery_plot: discoveries/J0739-4527_discovery_plot.png
+  discovery_snr: 42.1
+  observation_date: '2023-05-18'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 100.6
+  name: J0739-4527
+  period: 2.82
+  ra: null

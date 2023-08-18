@@ -1,0 +1,25 @@
+additional_content: [] 
+associations:
+- name: 4FGL J0749.8-4420
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2023-05-30'
+  discovery_plot: discoveries/J0749-4421_discovery_plot.png
+  discovery_snr: 21.3
+  observation_date: '2023-05-18'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 100.2
+  name: J0749-4421
+  period: 13.9
+  ra: null

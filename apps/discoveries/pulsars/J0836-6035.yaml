@@ -1,0 +1,25 @@
+additional_content: [] 
+associations:
+- name: 4FGL J0836.6-6036
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2023-05-30'
+  discovery_plot: discoveries/J0836-6035_discovery_plot.png
+  discovery_snr: 33.48
+  observation_date: '2023-05-18'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 92.7
+  name: J0836-6035
+  period: 3.40
+  ra: null
