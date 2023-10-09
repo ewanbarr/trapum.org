@@ -1,0 +1,26 @@
+additional_content: 
+  - title: Note
+    body: "Source discovered in G15.9+0.2"
+    images: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2023-05-24'
+  discovery_plot: discoveries/J1819-1502_discovery_plot.png
+  discovery_snr: 15
+  observation_date: '2022-05-24'
+  pipeline: Peasoup
+  project: TeV/SNR/PWNe
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 441
+  name: J1819-1502
+  period: 572.519
+  ra: null
