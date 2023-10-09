@@ -1,0 +1,25 @@
+additional_content: [] 
+associations:
+- name: 4FGL J1544.2-2554
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2023-07-27'
+  discovery_plot: discoveries/J1544-2555_discovery_plot.png
+  discovery_snr: 30.9
+  observation_date: '2023-06-08'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 25.8
+  name: J1544-2555
+  period: 2.39
+  ra: null

@@ -1,0 +1,25 @@
+additional_content: [] 
+associations:
+- name: 4FGL J2056.4-5922
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2023-05-30'
+  discovery_plot: discoveries/J2056-5922_discovery_plot.png
+  discovery_snr: 15.9
+  observation_date: '2023-05-18'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 24.2
+  name: J2056-5922
+  period: 2.39
+  ra: null

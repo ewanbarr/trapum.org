@@ -1,0 +1,28 @@
+additional_content: []
+  - title: Note
+    body: "Serendipitous discovery apparently unrelated to targeted 4FGL source"
+    images: []
+associations:
+- name: 4FGL J1303.1-4714
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2022-11-15'
+  discovery_plot: discoveries/J1303-4713_discovery_plot.png
+  discovery_snr: 16.54
+  observation_date: '2022-11-04'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 83.0
+  name: J1303-4713
+  period: 2563.1
+  ra: null
