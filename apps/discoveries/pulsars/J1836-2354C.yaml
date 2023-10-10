@@ -18,8 +18,8 @@ pulsar_parameters:
     asini: null
     ecc: null
     pb: null
-  ra: null
   dec: null
   dm: 87.869
   name: J1836-2354C
   period: 5.64
+  ra: null

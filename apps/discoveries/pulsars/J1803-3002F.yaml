@@ -20,6 +20,6 @@ pulsar_parameters:
     pb: null
   dec: null
   dm: 197.2
-  name: J1803−3002F
+  name: "J1803\u22123002F"
   period: 148.14
   ra: null

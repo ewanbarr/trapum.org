@@ -1,10 +1,10 @@
 additional_content: []
-associations:            
+associations:
 - name: Small Magellanic Cloud
   type: Galaxy
 discovery_parameters:
   backend: FBFUSE/APSUSE
-  discovery_band: L-band  
+  discovery_band: L-band
   discovery_date: '2021-07-06'
   discovery_plot: discoveries/SMC_N_discovery_plot.png
   discovery_snr: 22.03
@@ -12,14 +12,14 @@ discovery_parameters:
   pipeline: Peasoup
   project: ExGal
 pulsar_parameters:
-  aliases: []    
-  binary: false    
+  aliases: []
+  binary: false
   binary_parameters:
-    asini: null  
-    ecc: null    
-    pb: null         
-  dec: null    
-  dm: 119.90  
-  name: J0105-7208        
-  period: 306.73     
-  ra: null       
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 119.9
+  name: J0105-7208
+  period: 306.73
+  ra: null

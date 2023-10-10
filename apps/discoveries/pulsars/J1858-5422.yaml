@@ -1,3 +1,8 @@
+additional_content:
+- body: Gamma-ray pulse profile of PSR J1858-5422 in Fermi-LAT data.
+  images:
+  - gamma_ray_detections/J1858-5422_gammaray_profile.png
+  title: Gamma-ray Pulsations from J1858-5422
 associations:
 - name: 4FGL J1858.3-5424
   type: Fermi LAT source
@@ -22,8 +27,3 @@ pulsar_parameters:
   name: J1858-5422
   period: 2.36
   ra: null
-additional_content:
-  - title: "Gamma-ray Pulsations from J1858-5422"
-    images:
-      - "gamma_ray_detections/J1858-5422_gammaray_profile.png"
-    body: "Gamma-ray pulse profile of PSR J1858-5422 in Fermi-LAT data."

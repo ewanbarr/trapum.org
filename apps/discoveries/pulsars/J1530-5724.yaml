@@ -5,10 +5,10 @@ discovery_parameters:
   discovery_band: L-band
   discovery_date: '2022-07-11'
   discovery_plot: discoveries/J1530-5724_discovery_plot.png
-  discovery_snr: 17.30
+  discovery_snr: 17.3
   observation_date: '2022-06-25'
   pipeline: Peasoup
-  project: MGPS-L
+  project: MMGPS-L
 pulsar_parameters:
   aliases: []
   binary: false
@@ -17,7 +17,7 @@ pulsar_parameters:
     ecc: null
     pb: null
   dec: null
-  dm: 253.60
+  dm: 253.6
   name: J1530-5724
   period: 568.03
   ra: null

@@ -1,3 +1,8 @@
+additional_content:
+- body: Gamma-ray pulse profile of PSR J1356+0230 in Fermi-LAT data.
+  images:
+  - gamma_ray_detections/J1356+0230_gammaray_profile.png
+  title: Gamma-ray Pulsations from J1356+0230
 associations:
 - name: 4FGL J1356.6+0234
   type: Fermi LAT source
@@ -22,8 +27,3 @@ pulsar_parameters:
   name: J1356+0230
   period: 2.83
   ra: null
-additional_content:
-  - title: "Gamma-ray Pulsations from J1356+0230"
-    images:
-      - "gamma_ray_detections/J1356+0230_gammaray_profile.png"
-    body: "Gamma-ray pulse profile of PSR J1356+0230 in Fermi-LAT data."

@@ -10,10 +10,10 @@ discovery_parameters:
   discovery_snr: 19.0
   observation_date: '2021-06-16'
   pipeline: Peasoup
-  project: MGPS-L
+  project: MMGPS-L
 pulsar_parameters:
   aliases: []
-  binary: false 
+  binary: false
   binary_parameters:
     asini: null
     ecc: null

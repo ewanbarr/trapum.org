@@ -1,10 +1,10 @@
 additional_content:
-  - title: Note
-    body: "Serendipitous discovery apparently unrelated to targeted 4FGL source"
-    images: []
+- body: Serendipitous discovery apparently unrelated to targeted 4FGL source
+  images: []
+  title: Note
 associations:
-  - name: 4FGL J1303.1-4714
-    type: Fermi LAT source
+- name: 4FGL J1303.1-4714
+  type: Fermi LAT source
 discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: UHF

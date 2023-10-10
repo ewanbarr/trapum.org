@@ -1,3 +1,8 @@
+additional_content:
+- body: Gamma-ray pulse profile of PSR J1623-6936 in Fermi-LAT data.
+  images:
+  - gamma_ray_detections/J1623-6936_gammaray_profile.png
+  title: Gamma-ray Pulsations from J1623-6936
 associations:
 - name: 4FGL J1623.9-6936
   type: Fermi LAT source
@@ -22,8 +27,3 @@ pulsar_parameters:
   name: J1623-6936
   period: 2.41
   ra: null
-additional_content:
-  - title: "Gamma-ray Pulsations from J1623-6936"
-    images:
-      - "gamma_ray_detections/J1623-6936_gammaray_profile.png"
-    body: "Gamma-ray pulse profile of PSR J1623-6936 in Fermi-LAT data."

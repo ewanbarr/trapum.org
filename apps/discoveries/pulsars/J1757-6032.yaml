@@ -1,3 +1,8 @@
+additional_content:
+- body: Gamma-ray pulse profile of PSR J1757-6032 in Fermi-LAT data.
+  images:
+  - gamma_ray_detections/J1757-6032_gammaray_profile.png
+  title: Gamma-ray Pulsations from J1757-6032
 associations:
 - name: 4FGL J1757.7-6032
   type: Fermi LAT source
@@ -22,8 +27,3 @@ pulsar_parameters:
   name: J1757-6032
   period: 2.91
   ra: null
-additional_content:
-  - title: "Gamma-ray Pulsations from J1757-6032"
-    images:
-      - "gamma_ray_detections/J1757-6032_gammaray_profile.png"
-    body: "Gamma-ray pulse profile of PSR J1757-6032 in Fermi-LAT data."

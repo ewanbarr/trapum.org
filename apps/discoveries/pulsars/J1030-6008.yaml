@@ -4,14 +4,14 @@ discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: L-band
   discovery_date: '2022-03-08'
-  discovery_plot: discoveries/J1030-6008_discovery_plot.png 
+  discovery_plot: discoveries/J1030-6008_discovery_plot.png
   discovery_snr: 22
   observation_date: '2022-02-20'
   pipeline: Peasoup
-  project: MGPS-L
+  project: MMGPS-L
 pulsar_parameters:
   aliases: []
-  binary: true 
+  binary: true
   binary_parameters:
     asini: null
     ecc: null

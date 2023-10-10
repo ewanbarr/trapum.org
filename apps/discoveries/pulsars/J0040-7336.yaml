@@ -1,7 +1,7 @@
-additional_content: 
-  - title: Note
-    body: "Young 96 kyr pulsar"
-    images: []
+additional_content:
+- body: Young 96 kyr pulsar
+  images: []
+  title: Note
 associations:
 - name: Small Magellanic Cloud
   type: Galaxy

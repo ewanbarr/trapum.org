@@ -1,3 +1,8 @@
+additional_content:
+- body: Gamma-ray pulse profile of PSR J1803-6707 in Fermi-LAT data.
+  images:
+  - gamma_ray_detections/J1803-6707_gammaray_profile.png
+  title: Gamma-ray Pulsations from J1803-6707
 associations:
 - name: 3FGL J1803.3-6706  4FGL J1803.1-6708
   type: Fermi LAT source
@@ -22,8 +27,3 @@ pulsar_parameters:
   name: J1803-6707
   period: 2.13
   ra: null
-additional_content:
-  - title: "Gamma-ray Pulsations from J1803-6707"
-    images:
-      - "gamma_ray_detections/J1803-6707_gammaray_profile.png"
-    body: "Gamma-ray pulse profile of PSR J1803-6707 in Fermi-LAT data."

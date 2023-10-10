@@ -8,7 +8,7 @@ discovery_parameters:
   discovery_snr: 24.75
   observation_date: '2022-11-06'
   pipeline: Peasoup
-  project: MGPS-L
+  project: MMGPS-L
 pulsar_parameters:
   aliases: []
   binary: false
@@ -17,7 +17,7 @@ pulsar_parameters:
     ecc: null
     pb: null
   dec: null
-  dm: 222.90
+  dm: 222.9
   name: J1647-3752
   period: 587.24
   ra: null

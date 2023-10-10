@@ -8,10 +8,10 @@ discovery_parameters:
   discovery_snr: 32.07
   observation_date: '2022-03-05'
   pipeline: Peasoup
-  project: MGPS-L
+  project: MMGPS-L
 pulsar_parameters:
   aliases: []
-  binary: unknown 
+  binary: unknown
   binary_parameters:
     asini: null
     ecc: null

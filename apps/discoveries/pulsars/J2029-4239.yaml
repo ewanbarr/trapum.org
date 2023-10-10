@@ -1,3 +1,8 @@
+additional_content:
+- body: Gamma-ray pulse profile of PSR J2029-4239 in Fermi-LAT data.
+  images:
+  - gamma_ray_detections/J2029-4239_gammaray_profile.png
+  title: Gamma-ray Pulsations from J2029-4239
 associations:
 - name: 3FGL J2029.5-4232  4FGL J2029.5-4237
   type: Fermi LAT source
@@ -22,8 +27,3 @@ pulsar_parameters:
   name: J2029-4239
   period: 5.31
   ra: null
-additional_content:
-  - title: "Gamma-ray Pulsations from J2029-4239"
-    images:
-      - "gamma_ray_detections/J2029-4239_gammaray_profile.png"
-    body: "Gamma-ray pulse profile of PSR J2029-4239 in Fermi-LAT data."

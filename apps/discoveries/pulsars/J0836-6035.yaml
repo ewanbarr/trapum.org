@@ -1,4 +1,4 @@
-additional_content: [] 
+additional_content: []
 associations:
 - name: 4FGL J0836.6-6036
   type: Fermi-LAT source
@@ -21,5 +21,5 @@ pulsar_parameters:
   dec: null
   dm: 92.7
   name: J0836-6035
-  period: 3.40
+  period: 3.4
   ra: null

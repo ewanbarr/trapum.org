@@ -1,7 +1,7 @@
-additional_content: 
-  - title: Note
-    body: "Source discovered in G22.045-0.028"
-    images: []
+additional_content:
+- body: Source discovered in G22.045-0.028
+  images: []
+  title: Note
 associations: []
 discovery_parameters:
   backend: FBFUSE/APSUSE

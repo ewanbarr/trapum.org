@@ -1,3 +1,8 @@
+additional_content:
+- body: Gamma-ray pulse profile of PSR J1259-8148 in Fermi-LAT data.
+  images:
+  - gamma_ray_detections/J1259-8148_gammaray_profile.png
+  title: Gamma-ray Pulsations from J1259-8148
 associations:
 - name: 3FGL J1259.3-8151  4FGL J1259.0-8148
   type: Fermi LAT source
@@ -22,8 +27,3 @@ pulsar_parameters:
   name: J1259-8148
   period: 2.09
   ra: null
-additional_content:
-  - title: "Gamma-ray Pulsations from J1259-8148"
-    images:
-      - "gamma_ray_detections/J1259-8148_gammaray_profile.png"
-    body: "Gamma-ray pulse profile of PSR J1259-8148 in Fermi-LAT data."
