@@ -1,0 +1,23 @@
+additional_content: [] 
+associations: [] 
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: S-band 
+    discovery_date: '2023-06-22' 
+    discovery_plot: discoveries/J1011-5703_discovery_plot.png
+    discovery_snr: 9.63 
+    observation_date: '2023-06-09' 
+    pipeline: Peasoup 
+    project: MMGPS-S 
+pulsar_parameters: 
+    aliases: [] 
+    binary: false 
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+    dec: null 
+    dm: 1037 
+    name: J1011-5703 
+    period: 282.42 
+    ra: null

@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: S-band 
+    discovery_date: '2023-05-16' 
+    discovery_plot: discoveries/J1239-6307_discovery_plot.png 
+    discovery_snr: 32.86 
+    observation_date: '2023-05-08' 
+    pipeline: Peasoup 
+    project: MMGPS-S 
+pulsar_parameters: 
+    aliases: [] 
+    binary: false 
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 717 
+    name: J1239-6307 
+    period: 233.66 
+    ra: null
