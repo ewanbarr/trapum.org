@@ -5,7 +5,7 @@ associations:
 discovery_parameters:
   backend: PTUSE
   discovery_band: UHF
-  discovery_date: '2021-08-01'
+  discovery_date: '2022-08-01'
   discovery_plot: discoveries/NGC1851O_discovery_plot.png
   discovery_snr: 7.2
   observation_date: '2022-07-27'
