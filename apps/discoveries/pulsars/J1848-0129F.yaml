@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: Glimpse-C01
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2023-01-22'
+  discovery_plot: discoveries/Glimpse-C01F_discovery_plot.png
+  discovery_snr: 5.0
+  observation_date: '2023-08-02'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 520.1
+  name: J1848-0129F
+  period: 4.17
+  ra: null
