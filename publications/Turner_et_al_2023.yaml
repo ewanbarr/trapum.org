@@ -1,0 +1,14 @@
+---
+title: "TRAPUM search for pulsars in supernova remnants and pulsar wind nebulae − I. Survey description and initial discoveries"
+author: "Turner et al."
+year: 2023
+psrrefs: "Turner+2023"
+blurb: "We present the description and initial results of the TRAPUM (TRAnsients And PUlsars with MeerKAT) search for pulsars associated with supernova remnants (SNRs), pulsar wind nebulae and unidentified TeV emission."
+image: "publications/turner_et_al_2023.png"
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.1297T/abstract"
+  - "https://arxiv.org/abs/2405.11899"
+  - "https://doi.org/10.1093/mnras/stae1300"
+pulsars:
+  - "J1831-0941"
+  - "J1818-1502"

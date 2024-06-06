@@ -7,7 +7,7 @@ discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: L-band
   discovery_date: '2022-06-03'
-  discovery_plot: discoveries/J1831-0942_discovery_plot.png
+  discovery_plot: discoveries/J1831-0941_discovery_plot.png
   discovery_snr: 16
   observation_date: '2022-06-03'
   pipeline: Peasoup
@@ -21,6 +21,6 @@ pulsar_parameters:
     pb: null
   dec: null
   dm: 377
-  name: J1831-0942
+  name: J1831-0941
   period: 300.85
   ra: null

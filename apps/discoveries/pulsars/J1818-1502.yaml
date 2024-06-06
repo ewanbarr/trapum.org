@@ -7,7 +7,7 @@ discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: L-band
   discovery_date: '2023-05-24'
-  discovery_plot: discoveries/J1819-1502_discovery_plot.png
+  discovery_plot: discoveries/J1818-1502_discovery_plot.png
   discovery_snr: 15
   observation_date: '2022-05-24'
   pipeline: Peasoup
@@ -21,6 +21,6 @@ pulsar_parameters:
     pb: null
   dec: null
   dm: 441
-  name: J1819-1502
+  name: J1818-1502
   period: 572.519
   ra: null
