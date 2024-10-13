@@ -1,0 +1,13 @@
+---
+title: "Discovery and timing of ten new millisecond pulsars in the globular cluster Terzan 5"
+author: "Padmanabh et al."
+year: 2024
+psrrefs: "Padmanabh+2024"
+blurb: "We report the discovery of ten new pulsars in the globular cluster Terzan 5, bringing the total number of pulsars in the cluster to 49. Highlights include PSR J1748-2446ao, which is a candidate double neutron star system with a total mass of 3.17 solar masses, and PSR J1748-2446ap, which has the second highest eccentricity for any recycled pulsar (e=0.905)."
+image: ""
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2024A%26A...686A.166P/abstract"
+  - "https://arxiv.org/abs/2403.17799"
+  - "https://doi.org/10.1051/0004-6361/202449303"
+pulsars:
+  - "J1748-2446ao, J1748-2446ap, J1748-2446aq, J1748-2446ar, J1748-2446as, J1748-2446at, J1748-2446au, J1748-2446av, J1748-2446aw, J1748-2446ax"
