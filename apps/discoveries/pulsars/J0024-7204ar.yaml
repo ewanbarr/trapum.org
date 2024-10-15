@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 47 Tucanae
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2024-04-24'
+  discovery_plot: discoveries/47TucAR_discovery_plot.png
+  discovery_snr: 4.8
+  observation_date: '2022-01-28'
+  pipeline: PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 24.1
+  name: J0024-7204ar
+  period: 9.75
+  ra: null
