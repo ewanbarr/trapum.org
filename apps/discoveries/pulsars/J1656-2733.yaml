@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1656.5-2733
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2024-01-25'
+  discovery_plot: discoveries/J1656.5-2733_discovery_plot.png
+  discovery_snr: 13.79
+  observation_date: '2023-12-20'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 98.70
+  name: J1656.5-2734
+  period: 6.05
+  ra: null

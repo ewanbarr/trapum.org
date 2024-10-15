@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1857.8-3220
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2024-01-11'
+  discovery_plot: discoveries/J1857.8-3220_discovery_plot.png
+  discovery_snr: 25.7
+  observation_date: '2023-12-20'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 74.97
+  name: J1857-3222
+  period: 44.36
+  ra: null
