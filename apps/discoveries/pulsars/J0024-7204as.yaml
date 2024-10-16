@@ -5,9 +5,9 @@ associations:
 discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: UHF
-  discovery_date: '2024-04-10'
-  discovery_plot: discoveries/47TucAM_discovery_plot.png
-  discovery_snr: 10.8
+  discovery_date: '2024-04-15'
+  discovery_plot: discoveries/47TucAS_discovery_plot.png
+  discovery_snr: 5.9
   observation_date: '2022-01-27'
   pipeline: PULSAR_MINER / Presto
   project: GC
@@ -19,7 +19,7 @@ pulsar_parameters:
     ecc: null
     pb: null
   dec: null
-  dm: 24.5
-  name: J0024-7204am
-  period: 4.16
+  dm: 24.6
+  name: J0024-7204as
+  period: 4.01
   ra: null
