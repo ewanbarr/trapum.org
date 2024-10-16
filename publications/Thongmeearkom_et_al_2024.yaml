@@ -1,0 +1,15 @@
+---
+title: "A targeted radio pulsar survey of redback candidates with MeerKAT"
+author: "Thongmeearkom et al."
+year: 2024
+psrrefs: "Clark+2023"
+blurb: "We present the discovery of three new millisecond pulsars from our targeted deep survey of Fermi-LAT gamma-ray sources, which are high-confidence redback candidates"
+image: ""
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.4676T/abstract"
+  - "https://arxiv.org/abs/2403.09553"
+  - "https://doi.org/10.1093/mnras/stae787"
+pulsars:
+  - "J0838−2827"
+  - "J0955-3947"
+  - "J2333-5526"
