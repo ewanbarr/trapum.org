@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: NGC 2808
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L
+  discovery_date: '2024-05-24'
+  discovery_plot: discoveries/NGC2808B_discovery_plot.png
+  discovery_snr: 9.36
+  observation_date: '2024-03-13'
+  pipeline: Peasoup
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 109.1
+  name: J0912-6451B
+  period: 3.08
+  ra: null
