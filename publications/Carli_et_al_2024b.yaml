@@ -1,0 +1,13 @@
+---
+title: "The TRAPUM Small Magellanic Cloud pulsar survey with MeerKAT -- II. "
+author: "Carli et al."
+year: 2024
+psrrefs: "Carli+2024b"
+blurb: "We report new radio timing solutions from a three-year observing campaign conducted with the MeerKAT and Murriyang telescopes for nine Small Magellanic Cloud pulsars, increasing the number of characterised rotation-powered extragalactic pulsars by 40 per cent. We find that our two new Pulsar Wind Nebula  pulsars are giant glitchers and may be Vela-like."
+image: ""
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2024MNRAS.533.3957C/abstract"
+  - "https://arxiv.org/abs/2408.01965"
+  - "https://doi.org/10.1093/mnras/stae1897"
+pulsars:
+  - "J0040−7326, J0040−7335, J0040−7337, J0043−73, J0044−7314, J0048−7317, J0052−72, J0054−7228, J0105−7208"

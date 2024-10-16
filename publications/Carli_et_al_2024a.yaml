@@ -1,0 +1,13 @@
+---
+title: "The TRAPUM Small Magellanic Cloud pulsar survey with MeerKAT -- I. Discovery of seven new pulsars and two Pulsar Wind Nebula associations"
+author: "Carli et al."
+year: 2024
+psrrefs: "Carli+2024a"
+blurb: " We report the discovery of seven new SMC pulsars, doubling this galaxy’s radio pulsar population and increasing the total extragalactic population by nearly a quarter. Our discoveries reveal the first two radio pulsar-PWN systems in the SMC, with only one such system previously known outside our galaxy."
+image: ""
+links:
+  - "https://arxiv.org/abs/2405.12029"
+  - "https://doi.org/10.1093/mnras/stae1310"
+  - "https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.1306C/abstract"
+pulsars:
+  - "J0040−7326, J0040−7335, J0040−7337, J0043−73, J0044−7314, J0048−7317, J0052−72, J0054−7228, J0105−7208"
