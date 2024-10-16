@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: Large Magellanic Cloud
+  type: Galaxy
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2024-09-20'
+  discovery_plot: discoveries/LMC_11_discovery_plot.png
+  discovery_snr: 16.73
+  observation_date: '2024-07-18'
+  pipeline: Peasoup
+  project: ExGal
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 325.52
+  name: J0452-6921
+  period: 690.159
+  ra: null
