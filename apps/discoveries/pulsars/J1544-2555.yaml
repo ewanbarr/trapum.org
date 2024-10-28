@@ -1,4 +1,3 @@
-additional_content: []
 associations:
 - name: 4FGL J1544.2-2554
   type: Fermi-LAT source
@@ -23,3 +22,8 @@ pulsar_parameters:
   name: J1544-2555
   period: 2.39
   ra: null
+additional_content:
+  - title: "Gamma-ray Pulsations from J1544-2555"
+    images:
+      - "gamma_ray_detections/J1544-2555_gammaray_profile.png"
+    body: "Gamma-ray pulse profile of PSR J1544-2555 in Fermi-LAT data."
