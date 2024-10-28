@@ -1,4 +1,3 @@
-additional_content: []
 associations:
 - name: 3FGL J0838.8-2829  4FGL J0838.7-2827
   type: Fermi LAT source
@@ -23,3 +22,8 @@ pulsar_parameters:
   name: J0838-2827
   period: 3.62
   ra: null
+additional_content:
+  - title: "Gamma-ray Pulsations from J0838-2827"
+    images:
+      - "gamma_ray_detections/J0838-2827_gammaray_profile.png"
+    body: "Gamma-ray pulse profile of PSR J0838-2827 in Fermi-LAT data."
