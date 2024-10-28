@@ -1,4 +1,3 @@
-additional_content: []
 associations:
 - name: 4FGL J0739.6-4530
   type: Fermi-LAT source
@@ -23,3 +22,8 @@ pulsar_parameters:
   name: J0739-4527
   period: 2.82
   ra: null
+additional_content:
+  - title: "Gamma-ray Pulsations from J0739-4527"
+    images:
+      - "gamma_ray_detections/J0739-4527_gammaray_profile.png"
+    body: "Gamma-ray pulse profile of PSR J0739-4527 in Fermi-LAT data."

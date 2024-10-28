@@ -1,7 +1,8 @@
-additional_content: []
-associations:
-- name: 4FGL J1656.5-2733
-  type: Fermi LAT source
+additional_content:
+- body: Serendipitous discovery in incoherent beam
+  images: []
+  title: Note
+associations: []
 discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: UHF
@@ -20,6 +21,6 @@ pulsar_parameters:
     pb: null
   dec: null
   dm: 98.70
-  name: J1656.5-2734
+  name: J1655-2814
   period: 6.05
   ra: null

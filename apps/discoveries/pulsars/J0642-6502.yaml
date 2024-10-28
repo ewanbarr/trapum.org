@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J0642.9-6501
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2024-10-18'
+  discovery_plot: discoveries/J0642-6501_discovery_plot.png
+  discovery_snr: 31.6
+  observation_date: '2024-10-09'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 33.93
+  name: J0642-6502
+  period: 2.07
+  ra: null

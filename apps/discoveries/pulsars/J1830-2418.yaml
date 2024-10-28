@@ -1,14 +1,14 @@
 additional_content: []
 associations:
-- name: 4FGL J1659.2-1443
+- name: 4FGL J1830.7-2414
   type: Fermi LAT source
 discovery_parameters:
   backend: FBFUSE/APSUSE
   discovery_band: UHF
-  discovery_date: '2024-01-25'
-  discovery_plot: discoveries/J1659.2-1443_discovery_plot.png
-  discovery_snr: 17.9
-  observation_date: '2023-12-20'
+  discovery_date: '2023-07-08'
+  discovery_plot: discoveries/J1830-2418_discovery_plot.png
+  discovery_snr: 9.9
+  observation_date: '2023-06-25'
   pipeline: Peasoup
   project: FERMI
 pulsar_parameters:
@@ -19,7 +19,7 @@ pulsar_parameters:
     ecc: null
     pb: null
   dec: null
-  dm: 41.40
-  name: J1659.2-1444
-  period: 2.62
+  dm: 153.680
+  name: J1830-2418
+  period: 7.62
   ra: null

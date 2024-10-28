@@ -1,0 +1,13 @@
+---
+title: "Mass estimates from optical modelling of the new TRAPUM redback PSR J191-5320"
+author: "Dodge et al. 2024"
+year: 2024
+psrrefs: "Dodge+2024"
+blurb: "We present the discovery of a new redback millisecond pulsar binary system, and modelling of optical spectroscopy and photometry that provides estimates for the masses of the pulsar and companion star."
+image: ""
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.4337D/abstract"
+  - "https://arxiv.org/abs/2401.09928"
+  - "https://doi.org/10.1093/mnras/stae211"
+pulsars:
+  - "J1910-5320"

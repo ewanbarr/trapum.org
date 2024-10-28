@@ -1,4 +1,3 @@
-additional_content: []
 associations:
 - name: 4FGL J0657.4-4658
   type: Fermi-LAT source
@@ -23,3 +22,8 @@ pulsar_parameters:
   name: J0657-4657
   period: 3.95
   ra: null
+additional_content:
+  - title: "Gamma-ray Pulsations from J0657-4657"
+    images:
+      - "gamma_ray_detections/J0657-4657_gammaray_profile.png"
+    body: "Gamma-ray pulse profile of PSR J0657-4657 in Fermi-LAT data."
