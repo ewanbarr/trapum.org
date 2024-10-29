@@ -14,7 +14,7 @@ discovery_parameters:
   project: FERMI
 pulsar_parameters:
   aliases: []
-  binary: true
+  binary: false
   binary_parameters:
     asini: null
     ecc: null
