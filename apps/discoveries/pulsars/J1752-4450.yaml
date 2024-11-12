@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1752.8-4449
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2024-11-11'
+  discovery_plot: discoveries/J1752-4450_discovery_plot.png
+  discovery_snr: 17.10
+  observation_date: '2024-11-03'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 119.602
+  name: J1752-4450
+  period: 2.49
+  ra: null
