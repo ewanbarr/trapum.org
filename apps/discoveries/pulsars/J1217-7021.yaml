@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: UHF-band 
+    discovery_date: '2024-09-21' 
+    discovery_plot: discoveries/J1217-7021_discovery_plot.png 
+    discovery_snr: 50.80
+    observation_date: '2024-09-15' 
+    pipeline: Peasoup 
+    project: MMGPS-UHF
+pulsar_parameters: 
+    aliases: [] 
+    binary: unknown
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 167.65 
+    name: J1217-7021 
+    period: 742.32 
+    ra: null
