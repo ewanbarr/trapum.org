@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: UHF-band 
+    discovery_date: '2024-11-26' 
+    discovery_plot: discoveries/J1226-6126_discovery_plot.png 
+    discovery_snr: 18.25
+    observation_date: '2024-11-17' 
+    pipeline: Peasoup 
+    project: MMGPS-UHF
+pulsar_parameters: 
+    aliases: [] 
+    binary: unknown
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 94.74 
+    name: J1226-6126 
+    period: 351.73
+    ra: null
