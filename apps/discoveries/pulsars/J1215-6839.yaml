@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: UHF-band 
+    discovery_date: '2024-11-23' 
+    discovery_plot: discoveries/J1215-6839_discovery_plot.png 
+    discovery_snr: 11.43
+    observation_date: '2024-11-17' 
+    pipeline: Peasoup 
+    project: MMGPS-UHF
+pulsar_parameters: 
+    aliases: [] 
+    binary: unknown
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 180.50 
+    name: J1215-6839 
+    period: 630.47
+    ra: null
