@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: Large Magellanic Cloud
+  type: Galaxy
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2024-11-03'
+  discovery_plot: discoveries/LMC_13_discovery_plot.png
+  discovery_snr: 13.17
+  observation_date: '2024-10-25'
+  pipeline: Peasoup
+  project: ExGal
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 96
+  name: J0501-6744
+  period: 887.126
+  ra: null
