@@ -1,0 +1,24 @@
+associations:
+- name: 4FGL J1534.2-3312
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2025-07-18'
+  discovery_plot: discoveries/J1534-3321_discovery_plot.png
+  discovery_snr: 21.5
+  observation_date: '2025-07-13'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 48.1
+  name: J1534-3321
+  period: 2.46
+  ra: null
