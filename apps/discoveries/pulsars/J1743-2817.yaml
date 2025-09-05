@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: S-band 
+    discovery_date: '2025-08-21' 
+    discovery_plot: discoveries/J1743-2817_discovery_plot.png 
+    discovery_snr: 12.39
+    observation_date: '2025-08-08' 
+    pipeline: Peasoup 
+    project: MMGPS-S 
+pulsar_parameters: 
+    aliases: [] 
+    binary: false 
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 977
+    name: J1743-2817
+    period: 444.52
+    ra: null
