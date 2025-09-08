@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: BVRUSE 
+    discovery_band: S-band 
+    discovery_date: '2025-07-16' 
+    discovery_plot: discoveries/J1746-2905_discovery_plot.png 
+    discovery_snr: 19.25
+    observation_date: '2024-12-07' 
+    pipeline: galcen-search 
+    project: MMGPS-SgrA
+pulsar_parameters: 
+    aliases: [] 
+    binary: false 
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 1121
+    name: J1746-2905
+    period: 298.91
+    ra: null
