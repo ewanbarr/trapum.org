@@ -1,0 +1,22 @@
+associations: []
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: S-band 
+    discovery_date: '2025-09-08' 
+    discovery_plot: discoveries/J1745-3001_discovery_plot.png 
+    discovery_snr: 12.39
+    observation_date: '2025-08-16' 
+    pipeline: Peasoup 
+    project: MMGPS-S 
+pulsar_parameters: 
+    aliases: [] 
+    binary: false 
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 722
+    name: J1745-3001
+    period: 214.63
+    ra: null
