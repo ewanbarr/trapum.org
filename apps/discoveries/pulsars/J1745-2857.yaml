@@ -1,7 +1,7 @@
 additional_content: []
 associations: []
 discovery_parameters: 
-    backend: BVRUSE 
+    backend: FBFUSE-BVR 
     discovery_band: S-band 
     discovery_date: '2025-06-04' 
     discovery_plot: discoveries/J1745-2857_discovery_plot.png 
