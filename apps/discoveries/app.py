@@ -7,11 +7,12 @@ import glob
 import yaml
 import datetime
 import base64
-import pandas as pd
+#import pandas as pd
 import flask
 from flask import jsonify
 import dash_bootstrap_components as dbc
-import plotly.express as px
+#import plotly.express as px
+import plotly.graph_objects as go
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output, State
 
@@ -122,9 +123,9 @@ else:
 
 # --- App instantiation ---
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, requests_pathname_prefix=BASE_URL, external_stylesheets=external_stylesheets)
 app.title = APP_TITLE
-app.config.update({"requests_pathname_prefix": BASE_URL})
+#app.config.update({"requests_pathname_prefix": BASE_URL})
 server = app.server
 
 # --- Helper functions
@@ -138,7 +139,37 @@ def load_data(path):
         mapping[data["pulsar_parameters"]["name"]] = data
     return mapping
 
+def format_data(records):
+    columns = [
+        {"name": "PSRJ", "id": "name", "hideable": True},
+        {"name": "Period (ms)", "id": "period", "hideable": True},
+        {"name": "DM (pc cm^-3)", "id": "dm", "hideable": True},
+        {"name": "Binary", "id": "binary", "hideable": True},
+        {"name": "Disc. date", "id": "discovery_date", "hideable": True},
+        {"name": "Obs. date", "id": "observation_date", "hideable": True},
+        {"name": "Disc. band", "id": "discovery_band", "hideable": True},
+        {"name": "Discovery S/N", "id": "discovery_snr", "hideable": True},
+        {"name": "Project", "id": "project", "hideable": True}
+    ]
 
+    data = []
+    for pulsar, record in records.items():
+        formatted_record = {
+            "name": record["pulsar_parameters"]["name"],
+            "period": record["pulsar_parameters"]["period"],
+            "dm": record["pulsar_parameters"]["dm"],
+            "binary": record["pulsar_parameters"]["binary"],
+            "discovery_date": record["discovery_parameters"]["discovery_date"],
+            "observation_date": record["discovery_parameters"]["observation_date"],
+            "discovery_band": record["discovery_parameters"]["discovery_band"],
+            "discovery_snr": record["discovery_parameters"]["discovery_snr"],
+            "project": record["discovery_parameters"]["project"].upper()
+        }
+        data.append(formatted_record)
+
+    return columns, data
+
+"""
 def format_data(records):
     columns = [{"name": "PSRJ", "id": "name", "hideable": True},
                {"name": "Period (ms)", "id": "period", "hideable": True},
@@ -166,7 +197,7 @@ def format_data(records):
         }
         data.append(formatted_record)
     return columns, pd.DataFrame(data)
-
+"""
 
 def make_plot_control(id_, label, params, default):
     return dbc.Row([
@@ -293,7 +324,7 @@ def route1():
 
 
 # --- Callbacks ---
-
+"""
 @app.callback(Output('pulsar-scatter-plot-col', 'children'),
               Input('update-plot-button-state', 'n_clicks'),
               State('x-axis-selector', 'value'),
@@ -334,7 +365,89 @@ def update_plot(n_clicks, xaxis, yaxis, zaxis, logscales):
         id='pulsar-scatter-plot',
         figure=fig,
         style={'height': '60vh'})]
+"""
 
+"""
+@app.callback(
+    Output('pulsar-scatter-plot-col', 'children'),
+    Input('update-plot-button-state', 'n_clicks'),
+    State('x-axis-selector', 'value'),
+    State('y-axis-selector', 'value'),
+    State('z-axis-selector', 'value'),
+    State('logscale-selector', 'value')
+)
+def update_plot(n_clicks, xaxis, yaxis, zaxis, logscales):
+    # Convert list of dicts into x, y, color arrays
+    x_vals = [d[xaxis] for d in data]
+    y_vals = [d[yaxis] for d in data]
+    color_vals = [d[zaxis] for d in data]
+
+    fig = px.scatter(
+        x=x_vals,
+        y=y_vals,
+        color=color_vals,
+        log_x=True if "logx" in logscales else False,
+        log_y=True if "logy" in logscales else False,
+        labels={
+            xaxis: label_lookup[xaxis],
+            yaxis: label_lookup[yaxis],
+            zaxis: label_lookup[zaxis]
+        },
+        template=PLOTLY_THEME,
+        hover_data={"name": [d["name"] for d in data]}
+    )
+
+    fig.update_traces(marker={
+        "size": 12,
+        "line": {"width": 2, "color": "DarkSlateGrey"}
+    })
+
+    if PLOTLY_TRANSPARENT:
+        fig.update_layout({
+            'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+            'paper_bgcolor': 'rgba(0, 0, 0, 0)',
+            'xaxis': {"gridcolor": "rgba(51, 160, 212)"}
+        })
+
+    return [dcc.Graph(id='pulsar-scatter-plot', figure=fig, style={'height': '60vh'})]
+"""
+
+@app.callback(
+    Output('pulsar-scatter-plot-col', 'children'),
+    Input('update-plot-button-state', 'n_clicks'),
+    State('x-axis-selector', 'value'),
+    State('y-axis-selector', 'value'),
+    State('z-axis-selector', 'value'),
+    State('logscale-selector', 'value')
+)
+def update_plot(n_clicks, xaxis, yaxis, zaxis, logscales):
+    fig = go.Figure()
+
+    # Group data by zaxis
+    groups = {}
+    for row in data:
+        key = row[zaxis]
+        groups.setdefault(key, []).append(row)
+
+    for key, rows in groups.items():
+        fig.add_trace(go.Scatter(
+            x=[r[xaxis] for r in rows],
+            y=[r[yaxis] for r in rows],
+            mode="markers",
+            name=str(key),
+            text=[r["name"] for r in rows],
+            marker=dict(size=12, line=dict(width=2, color="DarkSlateGrey"))
+        ))
+
+    fig.update_layout(
+        xaxis_type="log" if "logx" in logscales else "linear",
+        yaxis_type="log" if "logy" in logscales else "linear",
+        template=PLOTLY_THEME,
+        plot_bgcolor='rgba(0,0,0,0)' if PLOTLY_TRANSPARENT else None,
+        paper_bgcolor='rgba(0,0,0,0)' if PLOTLY_TRANSPARENT else None
+    )
+
+    return [dcc.Graph(id='pulsar-scatter-plot', figure=fig, style={'height': '60vh'})]
 
 def make_pulsar_display_modal(pulsar_name):
     print("Pulsar NAME: ", pulsar_name)
@@ -379,6 +492,28 @@ if not PRODUCTION:
 
 
 records = load_data(YAML_DIR)
+cols, data = format_data(records)
+
+dropdown_cols = [{"label": i["name"], "value": i["id"]} for i in cols]
+label_lookup = {i["id"]: i["name"] for i in cols}
+
+table = dash_table.DataTable(
+    id='pulsar-table',
+    data=data,  # pass the list of dicts directly
+    columns=cols,
+    sort_action="native",
+    sort_mode="multi",
+    filter_action="native",
+    column_selectable="single",
+    page_action="native",
+    page_current=0,
+    page_size=30,
+    hidden_columns=["discovery_snr", "discovery_band", "observation_date"],
+    style_as_list_view=False,
+    **DASH_TABLE_STYLE
+)
+
+"""
 cols, df = format_data(records)
 dropdown_cols = [{"label": i["name"], "value": i["id"]} for i in cols]
 lable_lookup = {i["id"]: i["name"] for i in cols}
@@ -395,7 +530,7 @@ table = dash_table.DataTable(
         hidden_columns=["discovery_snr", "discovery_band", "observation_date"],
         style_as_list_view=False,
         **DASH_TABLE_STYLE)
-
+"""
 
 def simple_dict_display(title, data, font_size):
     key_style = {
@@ -425,6 +560,23 @@ def simple_dict_display(title, data, font_size):
 
 
 def generate_discovery_stats(data):
+    # Count discoveries per project
+    by_project = {}
+    for row in data:
+        proj = row["project"]
+        by_project[proj] = by_project.get(proj, 0) + 1
+
+    date = datetime.datetime.strftime(datetime.datetime.now(), "%Y-%m-%d %H:%M")
+    stats_panel = dbc.Container([
+        simple_dict_display("Total", {"TOTAL DISCOVERIES": len(data)}, font_size=22),
+        simple_dict_display("Projects", by_project, font_size=16),
+        simple_dict_display("Date", {"LAST UPDATED": date}, font_size=12)
+    ], style={"width": "60%"})
+
+    return stats_panel
+
+"""
+def generate_discovery_stats(data):
     by_project = data.groupby("project").count()["name"].to_dict()
     date = datetime.datetime.strftime(datetime.datetime.now(), "%Y-%m-%d %H:%M")
     stats_panel = dbc.Container([
@@ -433,7 +585,7 @@ def generate_discovery_stats(data):
         simple_dict_display("Date", {"LAST UPDATED": date}, font_size=12)
         ], style={"width": "60%"})
     return stats_panel
-
+"""
 
 plot_controls = [
     make_plot_control("x-axis-selector", "x-axis", dropdown_cols, "period"),
@@ -561,7 +713,7 @@ def tab_content(active_tab):
 
 app.layout = dbc.Container(children=[
     header,
-    generate_discovery_stats(df),
+    generate_discovery_stats(data),
     dbc.Container([discoveries_tabs]),
     footer,
     html.Br()
