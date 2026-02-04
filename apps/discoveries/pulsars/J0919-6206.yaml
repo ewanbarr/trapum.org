@@ -1,0 +1,24 @@
+associations:
+- name: 4FGL J0919.5-6203
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2025-09-24'
+  discovery_plot: discoveries/J0919-6206_discovery_plot.png
+  discovery_snr: 24.4
+  observation_date: '2025-09-20'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 120.5
+  name: J0919-6206
+  period: 3.7
+  ra: null
