@@ -436,6 +436,7 @@ def update_plot(n_clicks, xaxis, yaxis, zaxis, logscales):
             mode="markers",
             name=str(key),
             text=[r["name"] for r in rows],
+            customdata=[[r["name"]] for r in rows],
             marker=dict(size=12, line=dict(width=2, color="DarkSlateGrey"))
         ))
 
