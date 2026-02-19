@@ -264,7 +264,7 @@ class PulsarDetailGenerator:
 
     def format_additional_content(self):
         container = html.Div(children=[])
-        for content in self._record["additional_content"]:
+        for content in self._record.get("additional_content", []):
             div = html.Div(children=[html.H3(content["title"]), html.Br()])
             for image in content["images"]:
                 div.children.append(self.format_image(image))
