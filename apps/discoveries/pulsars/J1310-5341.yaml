@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: UHF-band 
+    discovery_date: '2026-02-05' 
+    discovery_plot: discoveries/J1310-5341_discovery_plot.png 
+    discovery_snr: 24.20
+    observation_date: '2026-01-31' 
+    pipeline: Peasoup 
+    project: MMGPS-UHF
+pulsar_parameters: 
+    aliases: [] 
+    binary: unknown
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 101.288
+    name: J1310-5341
+    period: 6.56
+    ra: null

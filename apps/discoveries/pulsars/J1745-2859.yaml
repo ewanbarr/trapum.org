@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: FBFUSE-BVR 
+    discovery_band: S-band 
+    discovery_date: '2025-06-16' 
+    discovery_plot: discoveries/J1745-2859_discovery_plot.png 
+    discovery_snr: 11.72
+    observation_date: '2024-12-07' 
+    pipeline: galcen-search 
+    project: MMGPS-SgrA
+pulsar_parameters: 
+    aliases: [] 
+    binary: false 
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 929
+    name: J1745-2859
+    period: 4147.63
+    ra: null

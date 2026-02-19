@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: UHF-band 
+    discovery_date: '2026-02-08' 
+    discovery_plot: discoveries/J1722-5449_discovery_plot.png 
+    discovery_snr: 16.74
+    observation_date: '2026-02-03'  
+    pipeline: Peasoup 
+    project: MMGPS-UHF
+pulsar_parameters: 
+    aliases: [] 
+    binary: unknown
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 111
+    name: J1722-5449
+    period: 524
+    ra: null

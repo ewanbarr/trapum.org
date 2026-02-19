@@ -1,0 +1,13 @@
+---
+title: "Multiwavelength observations of a new black-widow millisecond pulsar PSR J1544-2555"
+author: "Belmonte Diaz et al."
+year: 2025
+psrrefs: "BelmonteDiaz+2025"
+blurb: "We report the discovery of a millisecond pulsar, PSR J1544-2555, associated with the Fermi-Large Area Telescope (LAT) source 4FGL J1544.2-2554. This paper presents detailed multi-wavelength investigations of this system, incorporating radio and gamma-ray pulsar timing, alongside optical modelling and X-ray observations."
+image: ""
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2025MNRAS.543.3019B/abstract"
+  - "https://arxiv.org/abs/2509.09605"
+  - "https://doi.org/10.1093/mnras/staf1544"
+pulsars:
+  - "J1544-2555"
