@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: UHF-band 
+    discovery_date: '2026-01-16' 
+    discovery_plot: discoveries/J1414-6931_discovery_plot.png 
+    discovery_snr: 38.12
+    observation_date: '2025-12-22' 
+    pipeline: Peasoup 
+    project: MMGPS-UHF
+pulsar_parameters: 
+    aliases: [] 
+    binary: unknown
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 151 
+    name: J1414-6931
+    period: 727
+    ra: null

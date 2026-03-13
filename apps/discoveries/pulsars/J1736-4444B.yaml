@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: NGC 6388
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: S-band
+  discovery_date: '2025-10-21'
+  discovery_plot: discoveries/NGC6388B_discovery_plot.png
+  discovery_snr: 9.9
+  observation_date: '2025-07-17'
+  pipeline: Peasoup
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 246.9
+  name: J1736-4444B
+  period: 2.95
+  ra: null

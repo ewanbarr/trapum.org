@@ -1,0 +1,24 @@
+associations:
+- name: 4FGL J1015.1-6353
+  type: Fermi LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2025-09-18'
+  discovery_plot: discoveries/J1015-6355_discovery_plot.png
+  discovery_snr: 21.1
+  observation_date: '2025-09-16'
+  pipeline: Peasoup
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 139.1
+  name: J1015-6355
+  period: 5.2
+  ra: null

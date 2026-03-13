@@ -1,0 +1,14 @@
+---
+title: "TRAPUM search for pulsars in supernova remnants and pulsar wind nebulae − II. Survey analysis and population study"
+author: "Turner et al."
+year: 2025
+psrrefs: "Turner+2025"
+blurb: "We present the final results of the TRAPUM search for pulsars associated with supernova remnants (SNRs), pulsar wind nebulae (PWNe) and unidentified TeV emission. We conduct a population-based analysis to explain the results and infer properties of the young pulsar population connected to SNRs."
+image: "publications/turner_et_al_2025.png"
+links:
+  - "https://ui.adsabs.harvard.edu/abs/2025MNRAS.544.1160T/abstract"
+  - "https://arxiv.org/abs/2510.16618"
+  - "https://doi.org/10.1093/mnras/staf1813"
+pulsars:
+  - "J1831-0941"
+  - "J1819-1502"

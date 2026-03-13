@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: 4FGL J1213.9-4416
+  type: Fermi-LAT source
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2024-12-16'
+  discovery_plot: discoveries/J1213-4415_discovery_plot.png
+  discovery_snr: 16.1
+  observation_date: '2024-11-24'
+  pipeline: Pulsar_miner
+  project: FERMI
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 60.5
+  name: J1213-4415
+  period: 2.22
+  ra: null
