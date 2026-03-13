@@ -1,0 +1,24 @@
+additional_content: []
+associations: []
+discovery_parameters: 
+    backend: FBFUSE/APSUSE 
+    discovery_band: S-band 
+    discovery_date: '2026-03-02' 
+    discovery_plot: discoveries/J1754-2718_discovery_plot.png 
+    discovery_snr: 14.86
+    observation_date: '2026-02-26' 
+    pipeline: Peasoup 
+    project: MMGPS-S 
+pulsar_parameters: 
+    aliases: [] 
+    binary: false 
+    binary_parameters: 
+        asini: null 
+        ecc: null 
+        pb: null 
+        dec: null 
+    dm: 332.50
+    name: J1754-2718
+    period: 4.566713
+    ra: null
+
