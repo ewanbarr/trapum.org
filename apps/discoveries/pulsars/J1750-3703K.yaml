@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: NGC 6441
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: L-band
+  discovery_date: '2026-03-06'
+  discovery_plot: discoveries/NGC6441K_discovery_plot.png
+  discovery_snr: 5.8
+  observation_date: '2021-06-13'
+  pipeline: Nexto / PULSAR_MINER / Presto
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 228.9
+  name: J1750-3703K
+  period: 3.398
+  ra: null
