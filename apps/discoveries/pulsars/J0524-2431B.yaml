@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: M79
+  type: Globular Cluster
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF
+  discovery_date: '2026-01-12'
+  discovery_plot: discoveries/M79B_discovery_plot.png
+  discovery_snr: 22.73
+  observation_date: '2025-11-29'
+  pipeline: Elden-Ring / Peasoup
+  project: GC
+pulsar_parameters:
+  aliases: []
+  binary: true
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 62.27
+  name: J0524-2431B
+  period: 4.522
+  ra: null
