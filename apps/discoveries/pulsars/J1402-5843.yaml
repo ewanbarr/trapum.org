@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF-band
+  discovery_date: '2026-04-09'
+  discovery_plot: discoveries/J1402-5843_discovery_plot.png
+  discovery_snr: 11.18
+  observation_date: '2026-03-30'
+  pipeline: Peasoup
+  project: MMGPS-UHF
+pulsar_parameters:
+  aliases: []
+  binary: unknown
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+    dec: null
+  dm: 229.3
+  name: J1402-5843
+  period: 445.81
+  ra: null
