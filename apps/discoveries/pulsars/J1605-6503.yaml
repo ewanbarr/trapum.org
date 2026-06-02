@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF-band
+  discovery_date: '2026-05-25'
+  discovery_plot: discoveries/J1605-6503_discovery_plot.png
+  discovery_snr: 15.5
+  observation_date: '2026-05-12'
+  pipeline: Peasoup
+  project: MMGPS-UHF
+pulsar_parameters:
+  aliases: []
+  binary: unknown
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+    dec: nullå
+  dm: 66.54
+  name: J1605-6503
+  period: 992.1
+  ra: null

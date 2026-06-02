@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF-band
+  discovery_date: '2026-05-25'
+  discovery_plot: discoveries/J1806-4116_discovery_plot.png
+  discovery_snr: 20.56
+  observation_date: '2026-05-12'
+  pipeline: Peasoup
+  project: MMGPS-UHF
+pulsar_parameters:
+  aliases: []
+  binary: unknown
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+    dec: null
+  dm: 108.5
+  name: J1806-4116
+  period: 27.67
+  ra: null

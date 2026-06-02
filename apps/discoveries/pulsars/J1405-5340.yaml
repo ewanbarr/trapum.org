@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF-band
+  discovery_date: '2026-05-24'
+  discovery_plot: discoveries/J1405-5340_discovery_plot.png
+  discovery_snr: 9.34
+  observation_date: '2026-05-12'
+  pipeline: Peasoup
+  project: MMGPS-UHF
+pulsar_parameters:
+  aliases: []
+  binary: unknown
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+    dec: null
+  dm: 25.35
+  name: J1405-5340
+  period: 5.92
+  ra: null
