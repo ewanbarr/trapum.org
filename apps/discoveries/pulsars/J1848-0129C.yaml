@@ -4,7 +4,7 @@ associations:
   type: Globular Cluster
 discovery_parameters:
   backend: FBFUSE/APSUSE
-  discovery_band: UHF
+  discovery_band: S-band
   discovery_date: '2023-01-15'
   discovery_plot: discoveries/Glimpse-C01C_discovery_plot.png
   discovery_snr: 6.7
