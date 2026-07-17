@@ -1,0 +1,25 @@
+additional_content: []
+associations:
+- name: Small Magellanic Cloud
+  type: Galaxy
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF-band
+  discovery_date: '2026-05-19'
+  discovery_plot: discoveries/SMC_UHF_6_discovery_plot.png
+  discovery_snr: 21.89
+  observation_date: '2026-05-04'
+  pipeline: Peasoup
+  project: SMC-UHF
+pulsar_parameters:
+  aliases: []
+  binary: false
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+  dec: null
+  dm: 250.70
+  name: J0050-7250
+  period: 556.379
+  ra: null
