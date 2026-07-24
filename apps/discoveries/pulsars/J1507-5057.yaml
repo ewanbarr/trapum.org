@@ -1,0 +1,23 @@
+additional_content: []
+associations: []
+discovery_parameters:
+  backend: FBFUSE/APSUSE
+  discovery_band: UHF-band
+  discovery_date: '2026-07-19'
+  discovery_plot: discoveries/J1507-5057_discovery_plot.png
+  discovery_snr: 29.1
+  observation_date: '2026-07-11'
+  pipeline: Peasoup
+  project: MMGPS-UHF
+pulsar_parameters:
+  aliases: []
+  binary: unknown
+  binary_parameters:
+    asini: null
+    ecc: null
+    pb: null
+    dec: null
+  dm: 149.0
+  name: J1507-5057
+  period: 1277.18
+  ra: null
