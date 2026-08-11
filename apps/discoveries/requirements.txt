@@ -42,7 +42,7 @@ inflect==4.1.0
 itsdangerous==1.1.0
 jedi==0.17.0
 jinja2>=2.11.3
-lxml==4.6.5
+lxml==4.9.1
 Mako==1.1.2
 MarkupSafe==1.1.1
 numpy>=1.21
